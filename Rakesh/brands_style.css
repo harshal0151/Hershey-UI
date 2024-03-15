@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family:"TT norms pro", sans-serif;
+}
+/*----------------- HERO---------------------- */
+
+hero {
+    display: flex;
+    justify-content: space-between;
+}
+/* hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+} */
+
+
+#hero-left {
+    background-color:#3f000b;
+    text-align:left;  
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    line-height: 56.7px;
+    margin-top: 10rem;
+    color: #feebd0;
+    margin-bottom: 1.2rem;
+    margin-left: 6rem;
+    width: 25vw;
+    }
+    
+#hero-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hero-para {
+    font-size: 20px;
+    font-family:"TT Norms Pro,sans-serif";
+    line-height: 30px;
+    color: #feebd0;
+    margin-left: 6rem;
+    width: 31vw;    
+}
+
+#hero-right img, #hero-left {
+    width: 50vw;
+    /* height: 60vh; */
+}
+
+/* ------------------------------------------------- */
+
+/*----------------PURE-TEXT---------- */
+#pure-text {
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+
+}
+
+.pure-text-wrapper h2 {
+    color: #3f000b;
+    font-size: 2rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pure-text-wrapper p {
+    color: #333333;
+    font-size: 1rem;
+    font-family: "TT Norms Pro,sans-serif";
+    /* width: 30vw; */
+    /* margin: auto; */
+
+}
+
+.pure-text-wrapper {
+    width: 40vw;
+    /* text-align: center; */
+}
+
+#pure-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efeaea;
+    
+}
+
+/* ------------------------------------------------- */
+/* ------------ARTICLE-1------------------------------- */
+#article-1 {
+    background-color: #91268e;
+    padding-top: 1rem;
+    padding-bottom: 42rem;
+    background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/snacks-variety.svg)
+
+}
+
+.sub-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.sub-sec-left >img {
+    width: 55vw;
+    height: 60vh ;
+    position: absolute;
+    top: 0.5rem;
+    left: 11rem;
+    bottom: 5rem;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.article-heading {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    color: #feebd0;
+    
+}
+
+.sub-sec-right {
+    background-color: #ffffff;
+    width: 20vw;
+    height: 45vh;
+    text-align: center;
+    position: absolute;
+    top: 5rem;
+    right: 21rem;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+}
+.sub-sec-right > h3 {
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+   
+    
+}
+.sub-sec-right > p {
+    font-family: "TT Norms Pro,sans-serif";
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.large-button {
+    background-color: #3f000b;
+    color: #feebd0;
+    padding: 1rem 4rem;
+    border-radius: 4.75rem;
+}
+
+.large-button :hover {
+    background-color: black;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------- */
+/* -----For text with Underline-------------- */
+.button-front-text a {
+    border-bottom: solid 1px;
+    border-bottom-color: #feebd0;
+    color: #feebd0;
+
+}
+.button-front-text-article-5 a{
+    border-bottom: solid 1px;
+    border-bottom-color: #3f000b;
+    color: #3f000b;
+
+}
+
+/*----------------ARTICLE-2---------- */
+#article-2 {
+    background-color: #ffffff;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+} 
+
+.article-2-sec-left {
+    background-color: #08a9a0;
+    /* position: absolute; */
+    width: 40vw;
+    height: 60vh;  
+    /* top: 4rem; */
+    margin-left: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.article-2-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+
+.article-2-sec-right > img{
+    width: 40vw;
+    height: 60vh;
+    margin-top: 6rem;
+}
+
+.article-2-sec-left > h2 {
+    color: #feebd0;
+    font-size: 3rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.article-2-sec-left  p, .button-front-text {
+    color: #feebd0;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+}
+.brown-button {
+background-color: #3f000b;
+color: #feebd0;
+padding: 1rem 3rem;
+border-radius: 4.75rem;
+text-decoration: none;
+margin:3rem;
+}
+
+/* ---------ARTICLE-3--------------------- */
+#article-3{
+    background-color: #feebd0;
+    padding: 6rem;
+    background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/snacks-pattern.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.article-3-sec {
+    display: flex;
+}
+
+.article-3-sec-left img ,
+.article-3-sec-right {
+    width: 40vw;
+    height: 60vh;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+
+}
+
+.article-3-sec-right {
+    background-color: #91268e;
+    text-align: center;
+    padding: 2rem;
+} 
+
+.article-3-sec-right >h2 {
+    color: #feebd0;
+    font-size: 2rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+
+}
+
+.article-3-sec-right >p {
+    color: #feebd0;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 1rem;
+    margin-bottom: 3rem; 
+}
+
+.aritcle-3-sec {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+/* --------ARTICLE-4------------ */
+#article-4{
+    background-color: #efeaea;
+    padding: 6rem;
+    background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/rolos-dark.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.article-4-sec {
+    display: flex;
+}
+
+.article-4-sec-right img ,
+.article-4-sec-left {
+    width: 40vw;
+    height: 60vh;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+
+
+}
+
+.article-4-sec-left {
+    background-color: #08a9a0;
+    text-align: center;
+}
+
+.article-4-sec-left >h2 {
+    color: #feebd0;
+    font-size: 2rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+}
+
+.article-4-sec-left >p {
+    color: #feebd0;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 1rem;
+    margin-bottom: 3rem; 
+}
+
+/* ------------ ARTICLE-5-------------- */
+#article-5{
+    background-color: #feebd0;
+    padding: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.article-wrapper{
+    margin-left: auto;
+    margin-right:auto;
+}
+.article-5-sec {
+    display: flex;    
+}
+
+.article-5-sec-left img ,
+.article-5-sec-right {
+    width: 32vw;
+    height: 60vh;
+    
+
+}
+
+.article-5-sec-right {
+    background-color:#ffffff;
+    text-align: center;
+    padding: 2rem;
+} 
+
+.article-5-sec-right >h2 {
+    color: #3f000b;
+    font-size: 2rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+
+}
+
+.article-5-sec-right >p, .button-front-text {
+    color: #3f000b;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 1rem;
+    margin-bottom: 3rem; 
+}
+
