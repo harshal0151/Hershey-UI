@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 400;
+}
+/* nav-bar start */
+.navbar {
+    display:flex;
+    padding-left:6rem;
+    padding-top :.5rem;
+    align-items: end;
+    justify-content: space-between;
+    width:100%;
+    padding-bottom: .8rem;
+    background-color: #fff;
+    box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+
+.hamburger {
+    display:none;
+    font-size: 36px;
+    color: #3f000b;
+    padding:1.5rem;
+}
+
+.logo img{
+    height:70px;
+    margin-bottom: -4px;
+}
+
+.nav-wrap {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.utility-nav {
+    align-self: flex-end;
+    padding-right:4rem;
+    margin-right: 5%;
+}
+
+.utility-nav ul li {
+    padding: 1rem;
+    list-style-type: none;
+}
+.utility-nav ul li a {
+    color: #707070;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.utility-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-nav {
+    background-color:#3f000b;
+}
+
+.main-nav ul li {
+    margin: 0 0.2rem;
+    position:relative;
+    list-style-type: none; 
+    padding: 1rem 0;
+}
+.main-nav ul li a {
+    color: #feebd0;
+    text-decoration: none;
+    font-family:"TT norms pro", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+}
+
+.search{
+    font-size:20px;
+    font-weight: 600;
+}
+
+.main-nav>ul>li>a:hover {
+    background-color: #553b33;
+}
+
+.search-2 {
+    font-size: 40px;
+    padding:1.5rem;
+    color:#3f000b;
+    display:none;
+}
+
+/* DROPDOWN-menu */
+.main-nav ul li ul.dropdown {
+    width:310px;
+    margin-left:-3px;
+    position:absolute;
+    z-index:999;
+    background-color:#3f000b;
+    display:none;
+}
+
+.main-nav ul li ul.dropdown li:hover{
+    background-color:#652f33;
+}
+
+.main-nav ul li:hover ul.dropdown {
+    display:block;
+}
+
+/* nav-bar end */
+#container .route{
+    display: flex;
+    margin-top: 8.5rem;
+    margin-left: 2rem;
+}
+#container .route a{
+    color: #3f000b;
+    margin: 0.3rem;
+    font-family: montserrat;
+    
+    font-weight: bolder;
+}
+#container .route a:hover{
+    text-decoration: none;
+}
+#container .route .allergens{
+    color: #3f000b;
+    font-weight: medium;
+    text-decoration: none;
+    font-weight: 400;
+}
+#container .route p{
+    margin: 0.3rem;
+    font-family: montserrat;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.4);
+}
+/* first-section start */
+#container .hero{
+    background-image: url(../Assets/man-packaging-food.jpg);
+    margin-top: 1rem;
+    width: 100%;
+    overflow: hidden;
+    height: 30rem;
+    position: relative;
+}
+
+#container .hero .card{
+    background-color: #3f000b;
+    color: #feebd0;
+    position: absolute;
+    left: 4rem;
+    padding: 2rem;
+    width: 37%;
+    height: 100%;
+    
+}
+#container .hero .card h1{
+    font-family: montserrat;
+    font-size: -webkit-xxx-large;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+#container .hero .card p{
+    font-family: montserrat;
+    font-size: larger;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* first-section end */
