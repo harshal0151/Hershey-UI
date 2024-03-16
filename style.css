@@ -16,6 +16,14 @@ a {
     display:inline-block;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    color:#3f000b;
+}
+
+p {
+    color:#333333;
+}
+
 /*----------NAVBAR----------*/
 .navbar {
     display:flex;
@@ -129,20 +137,26 @@ a {
 
 /*----------MAIN----------*/
 main {
-    padding-top:7.8rem;
+    margin-top:7.8rem;
+    width:100%;
+    height:100vh;
 }
 
 /*----------HERO----------*/
 .hero{
     display:flex;
+    width:100%;
+    height:55%;
+    min-height: 395px;
 }
 .hero .container-1 {
-    width:100%;
+    width:50%;
     height:100%;
     background-color: #feebd0;
 }
 .hero .container-1 .content {
-    padding:5rem 6rem 3rem;
+    padding:5rem;
+    text-align: left;
 }
 
 .hero .container-1 .content h1 {
@@ -166,14 +180,25 @@ main {
     margin-top:2rem;
 }
 
+.button:hover{
+    background-color: #9f8085;
+}
+
+.hero .container-2{
+    width:50%;
+    height:100%;
+}
+
 .hero .container-2 img {
     width:100%;
     height:100%;
+    object-fit: cover;
 }
 
 /*----------POSTER & CARD----------*/
 .poster {
     width:100%;
+    overflow:hidden;
 }
 
 .card {
@@ -184,7 +209,7 @@ main {
     justify-content: center;
     width:23rem;
     height:26rem;
-    padding: 2rem 1.5rem;
+    padding: 2rem 1rem;
     background-color: #fff;
     box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.2);
 }
@@ -201,12 +226,16 @@ main {
 
 .card .button {
     margin:0;
+    width:80%;
 }
+
+/* .card .button:hover ~ .poster img {
+    transform: scale(1.2);
+} */
 
 /*----------CARD-RIGHT----------*/
 .card-right{
     display:flex;
-    /* background-image: url(assets/Bg-one.jpeg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -217,12 +246,17 @@ main {
 .card-right .poster {
     position:relative;
     width:70%;
-}
-.card-right .poster img {
-    height:100%;
-    width:100%;
+    overflow:hidden;
 }
 
+ .card-right .poster img {
+    width:100%;
+    object-fit: cover;
+    transition:transform 300ms;
+}
+/* .card-right .poster img:hover {
+    transform: scale(1.2);
+} */
 .card-right i {
     position:absolute;
     font-size: 50px;
@@ -247,7 +281,6 @@ main {
 .card-left{
     display:flex;
     justify-content: end;
-    /* background-image: url(assets/Bg-one.jpeg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -258,10 +291,13 @@ main {
 .card-left .poster {
     position:relative;
     width:70%;
+    overflow:hidden;
 }
+
 .card-left .poster img {
-    height:100%;
     width:100%;
+    object-fit: cover;
+    transition: transform 300ms;
 }
 
 .card-left i {
@@ -310,4 +346,238 @@ main {
 #six {
     background-image: url(assets/Bg-six.svg);
     background-color: #feebd0;
+}
+
+#six.card-left .poster img{
+    height:95%;
+    overflow:hidden;
+}
+
+
+/*----------UPDATES----------*/
+.updates {
+    padding:5rem 8rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.062),rgba(0, 0, 0, 0.062)),url(assets/Bg-updates.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.updates .updates_con{
+    display: flex;
+    justify-content: space-around; 
+    /* overflow-x:scroll; */
+}
+
+.updates .updates_con .cards{
+    width: 30%;
+    background-color: #fff;
+    margin: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cards img{
+    width: 100%;
+    height:35%;
+    object-fit: cover;
+}
+
+.updates .updates_con .cards .card_con{
+    padding:  1.5rem ;
+
+}
+.updates .updates_con .cards .card_con h3{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    line-height: 1.4; 
+    font-weight: 800; 
+}
+
+.updates .updates_con .cards .card_con p{
+    color: #3f000b;
+    font-size: 1rem;
+    line-height: 24px;   
+}
+
+.updates .updates_con .cards .card_con a {
+    text-decoration: underline;
+    color: #3f000b;
+}
+
+/*----------LINKS----------*/
+.links{
+    width:100%;
+    padding:5rem;
+}
+
+.links .container {
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.links .container .box {
+    width:30%;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+.links .container .box .image {
+    width:100%;
+    overflow: hidden;
+}
+
+.links .container .box .image img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition: transform 300ms;
+}
+
+.links .container .box a {
+    margin-top:1rem;
+    color:#007bbd;
+}
+
+.box:hover img {
+    transform:scale(1.2);
+}
+
+.box:hover a {
+    text-decoration:none;
+}
+
+/*----------FOOTER----------*/
+footer {
+    width:100%;
+    padding:5%;
+}
+
+footer .top {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.top .topleft {
+    width:65%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.top .topleft .tl {
+    width:30%;
+}
+
+.tl .logo {
+    width:100%;
+}
+
+.tl .socials a {
+    text-decoration: none;
+    color:#3f000b;
+}
+
+.socials a i {
+    font-size: 20px;
+    padding:10px;
+    margin:5px 0;
+}
+
+.toggle {
+    padding:10px 0;
+}
+
+.toggle i {
+    font-size:20px;
+}
+
+.tl ul.tl-one {
+    margin-left:4rem;
+}
+
+.tl ul li {
+    padding:5px;
+    line-height: 1.5;
+}
+.tl ul a {
+    color:#3f000b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tl ul a:hover {
+    text-decoration: underline;
+}
+
+.top .topright {
+    width:30%;
+    padding:1rem;
+}
+
+.topright .tr {
+    border-left:3px solid #3f000b;
+}
+
+.tr ul li {
+    margin-left:10px;
+    font-size: 13px;
+    padding:5px;
+    line-height: 1.5;
+}
+
+.tr ul a {
+    color: #707070;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tr ul a:hover {
+    text-decoration: underline;
+}
+
+footer .bottom {
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+
+.bottom .bottomleft {
+    width:65%;
+}
+
+.bottomleft a {
+    margin:1%;
+    padding-left: 2rem;
+    text-decoration: none;
+    color:#707070;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottomleft a:hover {
+    text-decoration: underline;
+}
+
+.bottomright {
+    width:30%;
+    padding:1rem;
+}
+
+.bottomright p {
+    color:#707070;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottomright a {
+    text-decoration: none;
+    color:#707070;
+}
+
+.bottomright a:hover {
+    text-decoration: underline;
 }
