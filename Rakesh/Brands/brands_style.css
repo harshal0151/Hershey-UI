@@ -1,23 +1,155 @@
-* {
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* html {
-    font-family:"TT norms pro", sans-serif;
-} */
 
-/* @font-face{
-    src:url(../MY_Hershey_UI/Brands_Assets/Gazpacho Bold.ttf);
-    font-family: "Gazpacho,TT Norms Pro,sans-serif";
+@font-face {
+    font-family: "Main-font";
+    src: url(/Hershey-UI/Rakesh/Brands_Assets/gazpacho-black.otf);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
-} */
+@font-face {
+    font-family:'TT-norms-bold';
+    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'TT-norms-reg';
+    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
+}
+html {
+    font-family:'TT-norms-reg';
+}
+
+ul {
+    font-family: 'TT-norms-bold';
+    list-style: none;
+}
 
 a {
+    display:inline-block;
     text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Main-font";
+    color:#3f000b;
+}
+
+p {
+    color:#333333;
+}
+
+
+/*----------NAVBAR----------*/
+.navbar {
+    display:flex;
+    padding-left:6rem;
+    padding-top :.5rem;
+    align-items: end;
+    justify-content: space-between;
+    width:100%;
+    padding-bottom: .8rem;
+    background-color: #fff;
+    box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+
+.hamburger {
+    display:none;
+    font-size: 36px;
+    color: #3f000b;
+    padding:1.5rem;
+}
+
+.logo img{
+    height:70px;
+    margin-bottom: -4px;
+}
+
+.nav-wrap {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.utility-nav {
+    align-self: flex-end;
+    padding-right:4rem;
+    margin-right: 5%;
+}
+
+.utility-nav ul li {
+    padding: 1rem;
+}
+.utility-nav ul li a {
+    color: #707070;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.utility-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-nav {
+    background-color:#3f000b;
+}
+
+.main-nav ul li {
+    margin: 0 0.2rem;
+    position:relative; 
+}
+.main-nav ul li a {
+    color: #feebd0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+}
+
+.search{
+    font-size:20px;
+    font-weight: 600;
+}
+
+.main-nav>ul>li>a:hover {
+    background-color: #553b33;
+}
+
+.search-2 {
+    font-size: 40px;
+    padding:1.5rem;
+    color:#3f000b;
+    display:none;
+}
+
+/* DROPDOWN-menu */
+.main-nav ul li ul.dropdown {
+    width:310px;
+    margin-left:-3px;
+    position:absolute;
+    z-index:999;
+    background-color:#3f000b;
+    display:none;
+}
+
+.main-nav ul li ul.dropdown li:hover{
+    background-color:#652f33;
+}
+
+.main-nav ul li:hover ul.dropdown {
+    display:block;
 }
 
 /*----------------HERO------------------*/
@@ -25,6 +157,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    margin-top: 7.8rem;
 
 }
 .hero .hero-con-1 {
@@ -37,6 +170,7 @@ a {
     padding: 3rem 6rem 3rem;
     width: 40vw;
     margin: auto;
+    margin-top: 5rem;
 
 }
 
@@ -45,19 +179,19 @@ a {
     height: 100%;
 }
 .hero  .hero-con-1 .con-1-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #feebd0;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    font-family:"Main-font";
 }
 
 .hero .hero-con-1 .con-1-content  p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #feebd0;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+
 }
 
-/*----------------PURE-TEXT---------- */
+/*----------PURE-TEXT---------- */
 #pure-text {
     padding-bottom: 5rem;
     padding-top: 2rem;
@@ -67,7 +201,7 @@ a {
 .pure-text-wrapper h2 {
     color: #3f000b;
     font-size: 2rem;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    font-family:"Main-font";
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
@@ -75,7 +209,6 @@ a {
 .pure-text-wrapper p {
     color: #333333;
     font-size: 1rem;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
     /* width: 30vw; */
     /* margin: auto; */
 
@@ -93,8 +226,6 @@ a {
     background-color: #efeaea;
     
 }
-
-/* ------------------------------------------------- */
 
 /* --------3-SECTION--MORE MOMENTS ----------------- */
 
@@ -115,7 +246,7 @@ a {
         font-size: 2rem;
         color: #feebd0;
         margin-bottom: 1rem;
-        font-family:"Gazpacho,TT Norms Pro,sans-serif";
+        font-family:"Main-font";
     }
 
 /* .more-moments {
@@ -165,7 +296,7 @@ a {
     font-size: 1rem;
     line-height: 1.5;
     margin: 25px 0;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    
 }
 p {
     color: #333333;
@@ -187,7 +318,7 @@ p {
     margin-top: 2rem;
 }
 
-/* ------------------------------------------------- */
+/* ---------ARTICLE-2------------- */
 
 #article-2 {
     background-color: #ffffff;
@@ -210,20 +341,19 @@ p {
 
 .article-2-sec-right img {
     width: 100%;
-    height: 100%;
+    height: 80%;
+    margin-top: 10%;
 }
 
 .article-2-sec-left > h2 {
     color: #feebd0;
     font-size: 3rem;
-    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
-    
 }
 
 .article-2-sec-left  p, .button-front-text a {
     color: #feebd0;
     font-size: 1.5rem;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
 
 
 }
@@ -240,7 +370,7 @@ p {
 }
     
 
-    /* -----For text with Underline-------------- */
+/* -----For text with Underline-------------- */
 .button-front-text a {
     border-bottom: solid 1px;
     border-bottom-color: #feebd0;
@@ -253,7 +383,7 @@ p {
     color: #3f000b;
 
 }   
-/* ---------ARTICLE-3--------------------- */
+/* ---------ARTICLE-3--------- */
 #article-3 {
     background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/snacks-pattern.svg);
     background-color: #feebd0;
@@ -291,27 +421,11 @@ p {
 .article-3-sec-right  p, .button-front-text a {
     color: #feebd0;
     font-size: 1.5rem;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------------- */
+/* ---------ARTICLE-4------------- */
 
 #article-4 {
     background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/rolos-dark.svg);
@@ -342,17 +456,14 @@ p {
 .article-4-sec-left > h2 {
     color: #feebd0;
     font-size: 3rem;
-    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
-    
 }
 
 .article-4-sec-left  p, .button-front-text a {
     color: #feebd0;
     font-size: 1.5rem;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
-
+   
 }
-/* ------------------------------------------------- */
+/* ---------ARTICLE-5------------- */
 
 
 #article-5 {
@@ -385,17 +496,166 @@ p {
 .article-5-sec-right > h2 {
     color: #3f000b;
     font-size: 3rem;
-    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
+    
     
 }
 
 .article-5-sec-right  p, .article-5-button-front-text a {
     color: #3f000b;
     font-size: 1.5rem;
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
-
+    
 
 }
+
+/*----------FOOTER----------*/
+footer {
+    width:100%;
+    padding:5%;
+}
+
+footer .top {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.top .topleft {
+    width:65%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.top .topleft .tl {
+    width:30%;
+}
+
+.tl .logo {
+    width:100%;
+}
+
+.tl .socials a {
+    text-decoration: none;
+    color:#3f000b;
+}
+
+.socials a i {
+    font-size: 20px;
+    padding:10px;
+    margin:5px 0;
+}
+
+.toggle {
+    padding:10px 0;
+}
+
+.toggle p {
+    color:#707070;
+}
+
+.toggle i {
+    font-size:20px;
+    color:#3f000b;
+}
+
+.tl ul.tl-one {
+    margin-left:4rem;
+}
+
+.tl ul li {
+    padding:5px;
+    line-height: 1.5;
+}
+.tl ul a {
+    color:#3f000b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tl ul a:hover {
+    text-decoration: underline;
+}
+
+.top .topright {
+    width:30%;
+    padding:1rem;
+}
+
+.topright .tr {
+    border-left:3px solid #3f000b;
+}
+
+.tr ul li {
+    margin-left:10px;
+    font-size: 13px;
+    padding:5px;
+    line-height: 1.5;
+}
+
+.tr ul a {
+    color: #707070;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tr ul a:hover {
+    text-decoration: underline;
+}
+
+footer .bottom {
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+
+.bottom .bottomleft {
+    width:65%;
+}
+
+.bottomleft a {
+    margin:1%;
+    padding-left: 2rem;
+    text-decoration: none;
+    color:#707070;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottomleft a:hover {
+    text-decoration: underline;
+}
+
+.bottomright {
+    width:30%;
+    padding:1rem;
+}
+
+.bottomright p {
+    color:#707070;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottomright a {
+    text-decoration: none;
+    color:#707070;
+}
+
+.bottomright a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media all and (max-width: 1396px) {
     .more-moments .card {

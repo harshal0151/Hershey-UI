@@ -1,25 +1,162 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* --------------NAVBAR------------------- */
 
-/* @font-face {
-    src:url(Brands_Assets/Gazpacho Bold.ttf);
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+@font-face {
+    font-family: "Main-font";
+    src: url(/Hershey-UI/Rakesh/Brands_Assets/gazpacho-black.otf);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family:"Gazpacho,TT Norms Pro,sans-serif";
-} */
+@font-face {
+    font-family:'TT-norms-bold';
+    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
+}
 
+@font-face {
+    font-family: 'TT-norms-reg';
+    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
+}
+html {
+    font-family:'TT-norms-reg';
+}
 
-/* ---------------------------------------- */
+ul {
+    font-family: 'TT-norms-bold';
+    list-style: none;
+}
+
+a {
+    display:inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Main-font";
+    color:#3f000b;
+}
+
+p {
+    color:#333333;
+}
+
+/*----------NAVBAR----------*/
+.navbar {
+    display:flex;
+    padding-left:6rem;
+    padding-top :.5rem;
+    align-items: end;
+    justify-content: space-between;
+    width:100%;
+    padding-bottom: .8rem;
+    background-color: #fff;
+    box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top:0;
+    z-index: 999;
+}
+
+.hamburger {
+    display:none;
+    font-size: 36px;
+    color: #3f000b;
+    padding:1.5rem;
+}
+
+.logo img{
+    height:70px;
+    margin-bottom: -4px;
+}
+
+.nav-wrap {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.utility-nav {
+    align-self: flex-end;
+    padding-right:4rem;
+    margin-right: 5%;
+}
+
+.utility-nav ul li {
+    padding: 1rem;
+}
+.utility-nav ul li a {
+    color: #707070;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.utility-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-nav {
+    background-color:#3f000b;
+}
+
+.main-nav ul li {
+    margin: 0 0.2rem;
+    position:relative; 
+}
+.main-nav ul li a {
+    color: #feebd0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+}
+
+.search{
+    font-size:20px;
+    font-weight: 600;
+}
+
+.main-nav>ul>li>a:hover {
+    background-color: #553b33;
+}
+
+.search-2 {
+    font-size: 40px;
+    padding:1.5rem;
+    color:#3f000b;
+    display:none;
+}
+
+/* DROPDOWN-menu */
+.main-nav ul li ul.dropdown {
+    width:310px;
+    margin-left:-3px;
+    position:absolute;
+    z-index:999;
+    background-color:#3f000b;
+    display:none;
+}
+
+.main-nav ul li ul.dropdown li:hover{
+    background-color:#652f33;
+}
+
+.main-nav ul li:hover ul.dropdown {
+    display:block;
+}
+
+/* ---------HERO--------------- */
 .hero-licensing {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    margin-top: 7.8rem;
 
 }
 .hero-licensing .hero-con-1 {
@@ -40,17 +177,17 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
 }
 .hero-licensing .hero-con-1 .con-1-content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #feebd0;
 }
 
 .hero-licensing .hero-con-1 .con-1-content  p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #feebd0;
 }
 
-/* ---------------------------------------------------- */
+/* -----------GROW------------- */
 
 #grow {
     background-image:url(../Brands_Assets/kiss_pattern_a-munsell_transparent.webp);
@@ -98,19 +235,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .grow-text .grow-text-content h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #3f000b;
 
 }
 
 .supporting-text   {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #333333;
     padding: 0 2rem;
     text-align: center;
 }
-/* ------------------------------------------------ */
+
+/* --------------UPDATES-------------------- */
 .updates h2 {
     color: #feebd0;
     font-size: 3rem;
@@ -222,7 +360,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
 } */
 
-/* ------------------------ */
+
+
+/* --------GLOBAL---------- */
 #global {
     background-image:url(../Brands_Assets/pretzels-dark.svg);
     display: flex;
@@ -242,7 +382,7 @@ a.button {
     font-weight: 600;
     border-radius: 50px;
     margin-top: 2rem;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 /* a.button {
@@ -289,13 +429,153 @@ a.button {
 }
 
 .global-text .global-content h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #feebd0;
 
 }
 
 .global-text .global-content p   {
-    font-size: 1.2rem;
+    font-size: 1rem;
     /* line-height: 1.5; */
     color: #feebd0;;
 }
+
+/*----------FOOTER----------*/
+footer {
+    width:100%;
+    padding:5%;
+}
+
+footer .top {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.top .topleft {
+    width:65%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.top .topleft .tl {
+    width:30%;
+}
+
+.tl .logo {
+    width:100%;
+}
+
+.tl .socials a {
+    text-decoration: none;
+    color:#3f000b;
+}
+
+.socials a i {
+    font-size: 20px;
+    padding:10px;
+    margin:5px 0;
+}
+
+.toggle {
+    padding:10px 0;
+}
+
+.toggle p {
+    color:#707070;
+}
+
+.toggle i {
+    font-size:20px;
+    color:#3f000b;
+}
+
+.tl ul.tl-one {
+    margin-left:4rem;
+}
+
+.tl ul li {
+    padding:5px;
+    line-height: 1.5;
+}
+.tl ul a {
+    color:#3f000b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tl ul a:hover {
+    text-decoration: underline;
+}
+
+.top .topright {
+    width:30%;
+    padding:1rem;
+}
+
+.topright .tr {
+    border-left:3px solid #3f000b;
+}
+
+.tr ul li {
+    margin-left:10px;
+    font-size: 13px;
+    padding:5px;
+    line-height: 1.5;
+}
+
+.tr ul a {
+    color: #707070;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tr ul a:hover {
+    text-decoration: underline;
+}
+
+footer .bottom {
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+
+.bottom .bottomleft {
+    width:65%;
+}
+
+.bottomleft a {
+    margin:1%;
+    padding-left: 2rem;
+    text-decoration: none;
+    color:#707070;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottomleft a:hover {
+    text-decoration: underline;
+}
+
+.bottomright {
+    width:30%;
+    padding:1rem;
+}
+
+.bottomright p {
+    color:#707070;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bottomright a {
+    text-decoration: none;
+    color:#707070;
+}
+
+.bottomright a:hover {
+    text-decoration: underline;
+}
+
+
