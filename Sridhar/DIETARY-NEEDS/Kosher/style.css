@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Open Sans', sans-serif; */
     font-weight: 400;
 }
 /* nav-bar start */
@@ -120,6 +119,7 @@
 }
 
 /* nav-bar end */
+
 #container .route{
     display: flex;
     margin-top: 8.5rem;
@@ -147,27 +147,19 @@
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.4);
 }
-/* hero-section start */
-#container .hero{
-    background-image: url(../Assets/man-packaging-food.jpg);
-    margin-top: 1rem;
-    width: 100%;
-    overflow: hidden;
-    height: 30rem;
-    position: relative;
-}
 
+
+#container .hero{
+    margin-top: 1rem;
+    display: flex;
+}
 #container .hero .card{
+    width: 50%;
     background-color: #3f000b;
     color: #feebd0;
-    position: absolute;
-    left: 4rem;
-    padding: 2rem;
-    width: 37%;
-    height: 100%;
-    
+    padding: 5.9rem 5rem;
 }
-@font-face {
+@font-face{
     font-family: f1;
     src: url(../Assets/Gazpacho\ Medium.ttf);
 }
@@ -184,53 +176,112 @@
     font-weight: 500;
     line-height: 30px;
 }
-/* hero-section end */
-/* section-1 start */
-#container .section-1{
-    display: flex;
-    justify-content: space-around;
-    background-color: #e2d6c5;
+#container .hero .choco{
+    width: 50%;
+    height: 23rem;
 }
-#container .section-1 .section-heading{
-    width: 45%;
-    padding: 10rem;
-    font-family: f1;
+#container .hero .choco img{
+    width: 100%;
+    height: 100%;
+}
+
+#container .section-1{
+    background-color: #efeaea;
+    padding: 4rem 25rem 5rem 8rem ;
+    color: #333333;
+    font-family: montserrat;
+}
+#container .section-1 p{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    line-height: 1.6rem;
+}
+#container .section-1 img{
+    width: 100%;
+}
+
+
+/* section-1 start */
+#container .section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e2d6c5;
+    height: 30rem;
+}
+#container .section-2 .left{
+    width: 50%;
+    padding-left: 8rem;
+}
+#container .section-2 .left a{
+    
+    font-family: montserrat;
+    border-radius: 100px;
+    background-color: #3f000b;
+    padding: 1rem 2rem;
+    color: #feebd0;;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    line-height: 30px;
+}
+#container .section-2 .left a:hover{
+    background-color: rgba(63, 0, 11, 0.4);
+    transition: all 900ms;
+}
+#container .section-2 .left .section-heading{
     color: #3f000b;
+    font-family: f1;
     font-size: xx-large;
     font-weight: bolder;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
 }
-#container .section-1 .right{
+#container .section-2 .right{
     font-family: montserrat;
     display: flex;
     justify-content:space-between;
     width: 50%;
     margin-top: 3.5rem;
-    margin-right: 2rem;
+    margin-right: 7rem;
+    
 }
-#container .section-1 .right .choco-type .choco{
+#container .section-2 .right .choco-type .choco{
     width: 10rem;
     height: 10rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
     overflow: hidden;
 }
-#container .section-1 .right .choco-type .choco img{
+#container .section-2 .right .choco-type .choco img{
     width: 100%;
     height: 100%;
     transition: all 300ms;
 }
-#container .section-1 .right .choco-type .about{
+#container .section-2 .right .choco-type .about{
     padding-top: 1rem;
 }
-#container .section-1 .right .choco-type .about p{
-    font-weight: bold;
+#container .section-2 .right .choco-type .about p{
+    font-weight: 600;
+    color: #3f000b;
+    margin-right: 1rem;
+    line-height: 1.5rem;
+    padding: 0.25rem;
+}
+#container .section-2 .right .choco-type .about p .brand-name{
+    letter-spacing: 0.1rem;
+    font-size: medium;
+    font-weight: bolder;
     color: #3f000b;
 }
-#container .section-1 .right .choco-type a:hover{
+#container .section-2 .right .choco-type a:hover{
     text-decoration: none;
 }
-#container .section-1 .right .choco-type a:hover img{
+#container .section-2 .right .choco-type a:hover img{
     transform: scale(1.2);
 }
+
+
 /*----------FOOTER----------*/
 footer {
     width:100%;
