@@ -130,7 +130,8 @@ a {
 
  #about .about_hero{
     width: 100%;
-     height: 70%;
+     height: 70vh;
+     min-height: 490px;
      position: relative;
      margin-top: 7.8rem;
  
@@ -140,13 +141,11 @@ a {
     width: 100%;
     height: 100%;
    object-fit: cover;
-
 }
 
 
 .about_hero_con{
     width: 380px;
-    
     background-color:#3f000b ;
     border-radius: 5px;
     padding: 2rem 3rem;

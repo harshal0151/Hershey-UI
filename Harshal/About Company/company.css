@@ -121,74 +121,78 @@ a {
 .main-nav ul li:hover ul.dropdown {
   display: block;
 }
-/* nav-bar end */
-#container .route {
+
+/* route section  */
+.route {
   height: 40px;
   display: flex;
   margin-top: 8.5rem;
   margin-left: 2rem;
 }
-#container .route a {
+.route a {
   color: #3f000b;
   margin: 0.3rem;
   font-family: montserrat;
   font-weight: bolder;
 }
-#container .route a:hover {
+.route a:hover {
   text-decoration: none;
 }
-#container .route .allergens {
+.route .allergens {
   color: #3f000b;
   font-weight: medium;
   text-decoration: none;
   font-weight: 400;
 }
-#container .route p {
+.route p {
   margin: 0.3rem;
   font-family: montserrat;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.4);
 }
 
-/* Milton_hershey hero section  */
 
-.Milton_hero {
-  display: flex;
+/* company hero section  */
+.company_hero {
   width: 100%;
-  height: 55vh;
+  height: 70vh;
+  min-height: 490px;
+  position: relative;
 }
 
-.Milton_hero .milton_left {
-  width: 50%;
-  background-color: #3f000b;
-  color: #feebd0;
-}
-.Milton_hero .milton_left h1 {
-  font-size: 3rem;
-  padding: 1rem 5rem;
-  margin: 1rem 3rem;
-  font-weight: 900;
-}
-.Milton_hero .milton_left p {
-  padding: 0 5rem;
-  margin: 0 3rem;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.Milton_hero .milton_right {
-  width: 50%;
-}
-
-.Milton_hero .milton_right img {
+.company_hero img {
   width: 100%;
-  height: 55vh;
+  height: 100%;
   object-fit: cover;
 }
 
-/* milton_history section  */
+.company_hero_con {
+  width: 480px;
+  background-color: #3f000b;
+  border-radius: 5px;
+  padding: 2rem;
+  position: absolute;
+  top: 25%;
+  left: 4%;
+}
 
-.milton_history {
+.company_hero_con h1 {
+  font-size: 3rem;
+  line-height: 57.8px;
+  color: #feebd0;
+  font-weight: 1000;
+}
+
+.company_hero_con p {
+  color: #feebd0;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/* company_history section  */
+
+.company_history {
   width: 100%;
   padding: 3rem 8rem;
   background-color: #efeaea;
@@ -204,81 +208,30 @@ a {
   margin: 1rem;
 }
 
-.milton_history ul li h2 {
+.company_history ul li h2 {
   color: #3f000b;
   font-size: 2.5rem;
   font-weight: bolder;
 }
 
-.milton_history ul li p {
+.company_history ul li p {
   color: #333333;
   font-size: 1rem;
   margin: 1rem 0;
   margin-bottom: 1.5rem;
+  line-height: 1.3;
 }
 
-/* timeline section  */
+/* legacy section  */
 
-.timeline {
-  width: 100%;
-}
-
-.timeline .year {
-  padding: 0 12rem;
-  height: 110px;
-  background-color: #3f000b;
-  color: #ffff;
-  font-size: 3rem;
-  display: flex;
-  align-items: center;
-}
-
-.timeline .event {
-  width: 100%;
-  padding: 3rem 12rem;
-  display: flex;
-  justify-content: start;
-  background-color: #feebd0;
-}
-
-.event_img {
-  width: 22rem;
-  height: 30rem;
-}
-.event_img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.event_con {
-  width: 60%;
-  padding-left: 4rem;
-}
-
-.event_con ul li h3 {
-  font-size: 2.5rem;
-  color: #3f000b;
-  margin-bottom: 1rem;
-}
-
-.event_con ul li p {
-  width: 100%;
-  color: #333333;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  line-height: 1.5;
-}
-
-/* school section  */
-
-.school {
+.Legacy {
   width: 100%;
   padding: 5rem 8rem;
-  background-image: url(./assets/chocolate-variety-light.svg);
+  background-image: url(./assets/hersheys-dark.svg);
+  background-position: left bottom;
 }
 
-.school .school_con {
+.Legacy .Legacy_con {
   width: 100%;
   height: 80vh;
   font-family: sans-serif;
@@ -288,7 +241,7 @@ a {
   box-shadow: rgb(51, 51, 51) 0px 0px 15px 0px;
 }
 
-.school .school_con .school_left {
+.Legacy .Legacy_con .Legacy_left {
   width: 50%;
 
   text-align: center;
@@ -296,20 +249,20 @@ a {
   line-height: 1.5;
   color: #feebd0;
 }
-.school .school_left h2 {
+.Legacy .Legacy_left h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
   font-family: sans-serif;
   font-weight: 900 bold;
 }
 
-.school .school_left p {
+.Legacy .Legacy_left p {
   font-size: 1rem;
   margin-bottom: 2rem;
   line-height: 2;
 }
 
-.school .btn {
+.Legacy .btn {
   width: 80%;
   padding: 1rem;
   border-radius: 30px;
@@ -321,201 +274,225 @@ a {
   font-weight: bold;
   transition: all 0.4s ease;
 }
-.school button:hover {
+.Legacy button:hover {
   background-color: #9f8050;
 }
 
-.school .school_right {
+.Legacy .Legacy_right {
   height: 100%;
   width: 50%;
 }
 
-.school .school_right img {
+.Legacy .Legacy_right img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-/* campaigin section  */
+/* moments section  */
 
-.campaign {
+.Moments {
   width: 100%;
   padding: 5rem 8rem;
   background-color: #efeaea;
-  display: flex;
 }
 
-.campaign .campaign_con {
+.Moments .Moments_con {
   width: 100%;
   height: 80vh;
   font-family: sans-serif;
   display: flex;
   align-items: center;
-  background-color: #3f000b;
+  background-color: #91268e;
   box-shadow: rgb(51, 51, 51) 0px 0px 15px 0px;
 }
 
-.campaign .campaign_con .campaign_right {
+.Moments .Moments_con .Moments_left {
   width: 50%;
+
   text-align: center;
   padding: 3rem;
   line-height: 1.5;
   color: #feebd0;
 }
-.campaign .campaign_right h2 {
+.Moments .Moments_left h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
   font-family: sans-serif;
   font-weight: 900 bold;
 }
 
-.campaign .campaign_right p {
+.Moments .Moments_left p {
   font-size: 1rem;
   margin-bottom: 2rem;
   line-height: 2;
 }
 
-.campaign .campaign_left {
-  width: 50%;
-  height: 100%;
+.Moments .btn {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 30px;
+  background-color: #3f000b;
+  color: #feebd0;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s ease;
+}
+.Moments button:hover {
+  background-color: #9f8050;
 }
 
-.campaign .campaign_left img {
-  width: 100%;
+.Moments .Moments_right {
   height: 100%;
+  width: 50%;
+}
+
+.Moments .Moments_right img {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
+/* Workforce  section  */
 
-/* comunity section */
+.Workforce {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5rem;
+  background-image: url(./assets/kiss_pattern_a.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #08a9a0;
+}
+.Workforce .promise_title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 
+.Workforce .Workforce_card {
+  width: 30%;
+  z-index: 1;
+  position: relative;
+}
+.Workforce .Workforce_card .p_card {
+  width: 380px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 4rem 1rem;
+  top: 20%;
+  left: 10%;
+  position: absolute;
+  background-color: #fff;
+}
 
-.community {
-    width: 100%;
-    padding: 5rem 8rem;
-    background-image: url(./assets/kiss_pattern_a.png);
-   background-size: cover;
-  
-  }
-  
-  .community .community_con {
-    width: 100%;
-    height: 80vh;
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    background-color: #08a9a0;
-    box-shadow: rgb(51, 51, 51) 0px 0px 15px 0px;
-  }
-  
-  .community .community_con .community_left {
-    width: 50%;
-  
-    text-align: center;
-    padding: 3rem;
-    line-height: 1.5;
-    color: #feebd0;
-  }
-  .community .community_left h2 {
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
-    font-family: sans-serif;
-    font-weight: 900 bold;
-  }
-  
-  .community .community_left p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    line-height: 2;
-  }
-  
+.Workforce .Workforce_card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333333;
+}
 
-  .community .community_right {
-    height: 100%;
-    width: 50%;
-  }
-  
-  .community .community_right img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
+.Workforce .Workforce_card p {
+  font-size: 1.08rem;
+  color: #333333;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  padding:  0 1.5rem;
+}
 
+.Workforce .Workforce_card .btn {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 30px;
+  background-color: #3f000b;
+  color: #feebd0;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s ease;
+}
+.Workforce .Workforce_card button:hover {
+  background-color: #9f8050;
+}
 
+.Workforce .Workforce_img img {
+  width: 100%;
+}
+.Workforce .Workforce_img {
+  margin-right: 5rem;
+  position: relative;
+}
 
+.play_icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
 
-  /* Democratizing section  */
+.Workforce_img i {
+  color: #fff;
+  font-size: 3rem;
+}
+.Workforce_img i:hover {
+  cursor: pointer;
+  text-shadow: 0 0 20px #000000d5;
+}
 
-.Democratizing {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 5rem;
-    background-color: #08a9a0;
-  }
-  .Democratizing .Democratizing_card {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .Democratizing .Democratizing_card {
-    width: 30%;
-    z-index: 1;
-    position: relative;
-  }
-  .Democratizing .Democratizing_card .p_card {
-    width: 380px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 2rem 1rem;
-    top: 10%;
-    left: 20%;
-    position: absolute;
-    background-color: #fff;
-  }
-  
-  .Democratizing .Democratizing_card h2 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: #333333;
-    line-height: 1.1;
-  }
-  
-  .Democratizing .Democratizing_card p {
-    font-size: 1.08rem;
-    color: #333333;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-  }
-  
-  .Democratizing .Democratizing_card .btn {
-    width: 80%;
-    padding: 1rem;
-    border-radius: 30px;
-    background-color: #3f000b;
-    color: #feebd0;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all 0.4s ease;
-  }
-  .Democratizing .Democratizing_card button:hover {
-    background-color: #9f8050;
-  }
-  
-  .Democratizing .Democratizing_img img {
-    width: 100%;
-  }
-  .Democratizing .Democratizing_img {
-    width: 80%;
-    margin-right: 5rem;
-    position: relative;
-  }
-  
-  
-  
+/* plantLocation section  */
+
+.plantLocation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: #feebd0;
+  padding: 2rem 8rem;
+}
+
+.plantLocation .plantLocation_card {
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem;
+  background-color: #b7d34a;
+}
+
+.plantLocation .plantLocation_card h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem;
+  color: #3f000b;
+}
+
+.plantLocation .plantLocation_card p {
+  font-size: 1.2rem;
+  padding: 0 3rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: #333333;
+}
+
+.plantLocation .plantLocation_card .btn {
+  width: 75%;
+  padding: 1rem;
+  border-radius: 250px;
+  background-color: #3f000b;
+  color: #feebd0;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.4s ease;
+}
+.plantLocation .plantLocation_card .btn:hover {
+  background-color: #9f8050;
+}
+
 /* footer section  */
 
 footer {
