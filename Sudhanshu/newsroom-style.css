@@ -4,11 +4,26 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Sudhanshu';
+    src: url(./newsroom-assets/gazpacho-black.otf);
+}
+
+@font-face {
+    font-family:'TT-norms-bold';
+    src: url(./newsroom-assets/TT\ Norms\ Pro\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'TT-norms-reg';
+    src: url(./newsroom-assets/TT\ Norms\ Pro\ Regular.otf);
+}
 html {
-    font-family:"TT norms pro", sans-serif;
+    font-family:'TT-norms-reg';
 }
 
 ul {
+    font-family: 'TT-norms-bold';
     list-style: none;
 }
 
@@ -17,6 +32,7 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    font-family: 'Sudhanshu';
     color:#3f000b;
 }
 
@@ -94,7 +110,6 @@ p {
 .main-nav ul li a {
     color: #feebd0;
     text-decoration: none;
-    font-family:"TT norms pro", sans-serif;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -346,8 +361,8 @@ main {
 .media .media_left h2 {
     font-size: 2.2rem;
     margin-bottom: 2rem;
-    font-family: sans-serif;
     font-weight: 900 bold;
+    color: #feebd0;
 }
   
 .media .media_left p {

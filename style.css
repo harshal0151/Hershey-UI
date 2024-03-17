@@ -4,11 +4,26 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Sudhanshu';
+    src: url(./assets/gazpacho-black.otf);
+}
+
+@font-face {
+    font-family:'TT-norms-bold';
+    src: url(./assets/TT\ Norms\ Pro\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'TT-norms-reg';
+    src: url(./assets/TT\ Norms\ Pro\ Regular.otf);
+}
 html {
-    font-family:"TT norms pro", sans-serif;
+    font-family:'TT-norms-reg';
 }
 
 ul {
+    font-family: 'TT-norms-bold';
     list-style: none;
 }
 
@@ -17,6 +32,7 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6 {
+    font-family: 'Sudhanshu';
     color:#3f000b;
 }
 
@@ -94,7 +110,6 @@ p {
 .main-nav ul li a {
     color: #feebd0;
     text-decoration: none;
-    font-family:"TT norms pro", sans-serif;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -162,6 +177,7 @@ main {
 .hero .container-1 .content h1 {
     font-size: 3rem;
     color:#3f000b;
+    font-weight: 800;
 }
 
 .hero .container-1 .content p {
@@ -585,4 +601,111 @@ footer .bottom {
 
 .bottomright a:hover {
     text-decoration: underline;
+}
+
+
+
+@media screen and (min-width:1600px) {
+    .navbar .utility-nav {
+        max-width:1600px;
+        margin-left: 50%;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:1338px) {
+
+    .navbar {
+        padding-left:2rem;
+    }
+    .hero .container-1 .content {
+        padding:3rem;
+
+    }
+    .hero .container-1 .content h1 {
+        font-size: 2.5rem;
+        margin-bottom:1rem;
+    }
+
+    .main-nav ul li a {
+        padding:1rem 1rem;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .card {
+        width: 30%;
+        height:65%;
+    }
+    
+    .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        margin: 10px;
+        line-height: 1.2;
+    }
+
+    .card .button {
+        font-size: 17px;
+        padding:1rem;
+    }
+
+    .updates .updates_con .cards .card_con h3 {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+
+    }
+
+}
+
+@media  screen and (max-width:1100px) {
+    
+    .navbar {
+        padding-left:1.5rem;
+    }
+
+    .main-nav ul li a {
+        padding:1rem 1rem;
+        font-size: 13px;
+    }
+
+    .main-nav ul li {
+        margin:0;
+    }
+
+    .hero .container-1 .content {
+        padding:1rem;
+
+    }
+    .hero .container-1 .content h1 {
+        font-size: 2.2rem;
+        margin-bottom:1.2rem;
+    }
+
+    .card {
+        width: 30%;
+        height:65%;
+    }
+    
+    .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        margin: 10px;
+        line-height: 1.2;
+    }
+
+    .card .button {
+        font-size: 17px;
+        padding:1rem;
+    }
+
+    .updates .updates_con .cards .card_con h3 {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+
+    }
 }
