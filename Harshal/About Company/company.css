@@ -3,9 +3,31 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'heading';
+  src: url(./assets/gazpacho-black.otf);
+}
+
+@font-face {
+  font-family:'TT-norms-bold';
+  src: url(./assets/TT\ Norms\ Pro\ Bold.otf);
+}
+
+@font-face {
+  font-family: 'TT-norms-reg';
+  src: url(./assets/TT\ Norms\ Pro\ Regular.otf);
+}
+html{
+  font-family: 'TT-norms-reg';
+}
+h1,h2,h3{
+  font-family: 'heading';
+}
 
 ul {
   list-style: none;
+  font-family:'TT-norms-bold';
+
 }
 a {
   display: inline-block;
@@ -81,7 +103,6 @@ a {
 .main-nav ul li a {
   color: #feebd0;
   text-decoration: none;
-  font-family: "TT norms pro", sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -234,7 +255,6 @@ a {
 .Legacy .Legacy_con {
   width: 100%;
   height: 80vh;
-  font-family: sans-serif;
   display: flex;
   align-items: center;
   background-color: #08a9a0;
@@ -252,7 +272,6 @@ a {
 .Legacy .Legacy_left h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  font-family: sans-serif;
   font-weight: 900 bold;
 }
 
@@ -300,7 +319,6 @@ a {
 .Moments .Moments_con {
   width: 100%;
   height: 80vh;
-  font-family: sans-serif;
   display: flex;
   align-items: center;
   background-color: #91268e;
@@ -318,7 +336,6 @@ a {
 .Moments .Moments_left h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  font-family: sans-serif;
   font-weight: 900 bold;
 }
 
