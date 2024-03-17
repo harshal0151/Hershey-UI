@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html {
+    font-family:"TT norms pro", sans-serif;
+} */
+
+/* @font-face{
+    src:url(../MY_Hershey_UI/Brands_Assets/Gazpacho Bold.ttf);
+    font-family: "Gazpacho,TT Norms Pro,sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+} */
+
+a {
+    text-decoration: none;
+}
+
+/*----------------HERO------------------*/
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+.hero .hero-con-1 {
+    width: 100%;
+    height: 100%;
+    background-color: #3f000b;
+}
+
+.hero .hero-con-1 .con-1-content {
+    padding: 3rem 6rem 3rem;
+    width: 40vw;
+    margin: auto;
+
+}
+
+.hero .hero-con-2 img {
+    width: 100%;
+    height: 100%;
+}
+.hero  .hero-con-1 .con-1-content h1 {
+    font-size: 3rem;
+    color: #feebd0;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+}
+
+.hero .hero-con-1 .con-1-content  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #feebd0;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+}
+
+/*----------------PURE-TEXT---------- */
+#pure-text {
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+
+}
+
+.pure-text-wrapper h2 {
+    color: #3f000b;
+    font-size: 2rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pure-text-wrapper p {
+    color: #333333;
+    font-size: 1rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    /* width: 30vw; */
+    /* margin: auto; */
+
+}
+
+.pure-text-wrapper {
+    width: 40vw;
+    /* text-align: center; */
+}
+
+#pure-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efeaea;
+    
+}
+
+/* ------------------------------------------------- */
+
+/* --------3-SECTION--MORE MOMENTS ----------------- */
+
+#brand-three {
+    background-image: url(../Brands_Assets/snacks-variety.svg);
+    background-color: #91268e;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem;
+    position: relative;
+}
+
+.brand-heading {
+        text-align: center;
+        /* padding-top: 2rem;
+        padding-bottom: 3rem; */
+        font-size: 2rem;
+        color: #feebd0;
+        margin-bottom: 1rem;
+        font-family:"Gazpacho,TT Norms Pro,sans-serif";
+    }
+
+/* .more-moments {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 5rem;
+    position: relative;
+} */
+
+.card-right {
+    display: flex;
+    
+}
+.more-moments  .poster {
+    position: relative;
+    width: 70%;
+    overflow: hidden;
+}
+
+.more-moments  .poster img {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 300ms;
+}
+
+.more-moments .card {
+    position: absolute;
+    right: 10%;
+    top: 26%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 23rem;
+    height: 26rem;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 25px 0;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+}
+p {
+    color: #333333;
+}
+
+.card .button {
+    margin: 0;
+    width: 80%;
+}
+
+.button {
+    padding: 1.2rem;
+    background-color: #3f000b;
+    text-decoration: none;
+    color: #feebd0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+/* ------------------------------------------------- */
+
+#article-2 {
+    background-color: #ffffff;
+    padding: 5rem;
+} 
+.article-2-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.article-2-sec-left {
+    width: 100%;
+    height: 100%;
+    background-color: #08a9a0;
+    text-align: center;
+    padding: 15rem 1rem;
+    }
+
+
+.article-2-sec-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.article-2-sec-left > h2 {
+    color: #feebd0;
+    font-size: 3rem;
+    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
+    
+}
+
+.article-2-sec-left  p, .button-front-text a {
+    color: #feebd0;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+
+
+}
+
+.brown-button {
+    padding: 1.2rem;
+    background-color: #3f000b;
+    text-decoration: none;
+    color: #feebd0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+    
+
+    /* -----For text with Underline-------------- */
+.button-front-text a {
+    border-bottom: solid 1px;
+    border-bottom-color: #feebd0;
+    color: #feebd0;
+
+}
+.article-5-button-front-text a{
+    border-bottom: solid 1px;
+    border-bottom-color: #3f000b;
+    color: #3f000b;
+
+}   
+/* ---------ARTICLE-3--------------------- */
+#article-3 {
+    background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/snacks-pattern.svg);
+    background-color: #feebd0;
+    padding: 5rem;
+} 
+.article-3-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.article-3-sec-right {
+    width: 100%;
+    height: 100%;
+    background-color: #91268e;
+    text-align: center;
+    padding: 15rem 1rem;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+    }
+
+
+.article-3-sec-left img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+}
+
+.article-3-sec-right > h2 {
+    color: #feebd0;
+    font-size: 3rem;
+    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
+    
+}
+
+.article-3-sec-right  p, .button-front-text a {
+    color: #feebd0;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------- */
+
+#article-4 {
+    background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/rolos-dark.svg);
+    background-size: cover;
+    background-color: #ffffff;
+    padding: 5rem;
+} 
+.article-4-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.article-4-sec-left {
+    width: 100%;
+    height: 100%;
+    background-color: #08a9a0;
+    text-align: center;
+    padding: 15rem 1rem;
+    }
+
+
+.article-4-sec-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.article-4-sec-left > h2 {
+    color: #feebd0;
+    font-size: 3rem;
+    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
+    
+}
+
+.article-4-sec-left  p, .button-front-text a {
+    color: #feebd0;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+
+}
+/* ------------------------------------------------- */
+
+
+#article-5 {
+
+    background-color: #feebd0;
+    padding: 5rem;
+} 
+.article-5-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.article-5-sec-right {
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff;
+    text-align: center;
+    padding: 15rem 1rem;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+    }
+
+
+.article-5-sec-left img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+}
+
+.article-5-sec-right > h2 {
+    color: #3f000b;
+    font-size: 3rem;
+    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
+    
+}
+
+.article-5-sec-right  p, .article-5-button-front-text a {
+    color: #3f000b;
+    font-size: 1.5rem;
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+
+
+}
+
+@media all and (max-width: 1396px) {
+    .more-moments .card {
+        width: 25%;
+        /* right: 10%;
+        top: 26%; */
+    }
+    
+}
+
+@media all and (max-width: 1324px) {
+    .more-moments .card {
+        width: 23%;
+    }
+    .card {
+        width: 21rem;
+        height: 26rem;
+    }
+    
+        /* right: 10%;
+        top: 26%; */
+    }
+    

@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------NAVBAR------------------- */
+
+/* @font-face {
+    src:url(Brands_Assets/Gazpacho Bold.ttf);
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Gazpacho,TT Norms Pro,sans-serif";
+} */
+
+
+/* ---------------------------------------- */
+.hero-licensing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+.hero-licensing .hero-con-1 {
+    width: 100%;
+    height: 100%;
+    background-color: #3f000b;
+}
+
+.hero-licensing .hero-con-1 .con-1-content {
+    padding: 3rem 6rem 3rem;
+    width: 40vw;
+    margin: auto;
+
+}
+
+.hero-licensing .hero-con-2 img {
+    width: 100%;
+    height: 100%;
+}
+.hero-licensing .hero-con-1 .con-1-content h1 {
+    font-size: 3rem;
+    color: #feebd0;
+}
+
+.hero-licensing .hero-con-1 .con-1-content  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #feebd0;
+}
+
+/* ---------------------------------------------------- */
+
+#grow {
+    background-image:url(../Brands_Assets/kiss_pattern_a-munsell_transparent.webp);
+    background-color: #91268e;
+    background-image: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 8rem 5rem 8rem;
+}
+.grow-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* padding: 5rem 8rem 5rem 15rem; */
+}
+
+.grow-text {
+    /* width: 100%;
+    height: 100%; */
+    width: 34.063rem;
+    height: 34.063rem;
+    background-color:aliceblue;
+    /* min-height: 545px; */
+    
+
+}
+.grow-img {
+    /* width: 100%;
+    height: 100%; */
+    width: 34.063rem;
+    height: 34.063rem;
+}
+
+.grow-text-content  {
+    padding: 8rem 1rem 1rem;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+
+}
+
+.grow-text .grow-text-content h2 {
+    font-size: 3rem;
+    color: #3f000b;
+
+}
+
+.supporting-text   {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333333;
+    padding: 0 2rem;
+    text-align: center;
+}
+/* ------------------------------------------------ */
+.updates h2 {
+    color: #feebd0;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.updates {
+    padding: 5rem 8rem;
+    background-image:url(../Brands_Assets/pips_pattern-01.svg);
+    background-color: #08a9a0;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.062),rgba(0, 0, 0, 0.062)),url(assets/Bg-updates.jpeg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.updates .updates_con {
+    display: flex;
+    justify-content: space-around;
+    /* overflow-x: scroll; */
+}
+.updates .updates_con .cards {
+    width: 30%;
+    background-color: #fff;
+    margin: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+.cards img {
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+}
+.updates .updates_con .cards .card_con {
+    padding: 1.5rem;
+}
+.updates .updates_con .cards .card_con h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    font-weight: 800;
+}
+.updates .updates_con .cards .card_con a {
+    text-decoration: underline;
+    color: #3f000b;
+}
+.updates .updates_con .cards .card_con p {
+    color: #3f000b;
+    font-size: 1rem;
+    line-height: 24px;
+}
+/* ------------------------------------------------- */
+
+ /* .licensing-articles{
+    background-image:url(Brands_Assets/pips_pattern-01.svg);
+    background-color: #08a9a0;
+    padding: 4rem 5rem 2rem 5rem;
+    background-repeat: no-repeat;
+
+}
+
+.licensing-articles h2 {
+    color: #feebd0;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.articles-con {
+    
+    padding: 0.5rem 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.licensing-articles .articles-con .cards {
+    width: 50%;
+    background-color: #fff;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.cards img {
+     width: 100%; 
+    height: 60%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+} 
+
+.licensing-articles .articles-con .cards .card-con {
+    padding: 0rem 1.5rem;
+}
+
+.licensing-articles .articles-con .cards .card-con h3 {
+    font-size: 1.5rem;
+    color: #3f000b;
+    text-decoration: underline;
+   
+    line-height: 1.4;
+    font-weight: 800;
+}
+
+.licensing-articles .articles-con .cards .card-con p {
+    color: #3f000b;
+    font-size: 1rem;
+    line-height: 24px;
+} */
+
+/* ------------------------ */
+#global {
+    background-image:url(../Brands_Assets/pretzels-dark.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+
+}
+
+
+a.button {
+    padding: 1.2rem;
+    background-color: #3f000b;
+    text-decoration: none;
+    color: #feebd0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-top: 2rem;
+    width: 100vw;
+}
+
+/* a.button {
+    color: #feebd0;
+    background-color: #3f000b;
+    border-bottom-color: transparent;
+    
+    margin: 1.2rem auto 0;
+    
+    font-weight: bold;
+    padding: calc((4.2rem - 1em)/2);
+    border-radius: 2.5rem;
+    
+    line-height: 1;
+    border: none;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    
+    } */
+    /* width: 90%; */
+    /* display: inline-block; */
+    /* display: block; */
+    /* font-size: 1.6rem; */
+
+
+
+.global-content {
+    text-align: center;
+    background-color: #91268e;
+    padding: 3rem 6rem 5rem;
+    width: 40vw;
+    /* height: 50vh; */
+    margin: auto;
+    color: #feebd0;
+    /* margin: 5rem; */
+    /* text-align: center; */
+    /* padding:2rem 1rem 4rem 1rem; */
+    /* padding-bottom: 5rem; */
+}
+
+.global-content >i {
+    font-size: 1.5rem;
+
+}
+
+.global-text .global-content h2 {
+    font-size: 2.5rem;
+    color: #feebd0;
+
+}
+
+.global-text .global-content p   {
+    font-size: 1.2rem;
+    /* line-height: 1.5; */
+    color: #feebd0;;
+}
