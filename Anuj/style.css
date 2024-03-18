@@ -159,8 +159,8 @@ body{
     gap:12px;
  }
  #headding h1 {
-    font-family: "anuj";
-   width: 60%;
+   font-family: "anuj";
+   width: 65%;
    font-size: 40px;
    font-weight: 800;
    margin:1rem;
@@ -168,14 +168,14 @@ body{
  }
  #headding p{
     width: 65%;
-    font-size: 20px;
+    font-size: 17px;
     color: #feebd0;
-    margin-left:2.5rem;
+    margin-left:1rem;
+    line-height: 1.5;
  }
  .leady{
     width: 50%;
-    /* background-repeat: no-repeat;
-    background-position: center; */
+    
  }
  .leady img{
     width: 100%;
@@ -198,7 +198,7 @@ body{
 .info h1{
     background-color: #efeaea;
     font-family: anuj;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 900;
     margin:2.5rem;
 }
@@ -228,7 +228,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:2%;
+    gap:1.5%;
 }
 .goal{
     height: 55vh;
@@ -242,12 +242,11 @@ body{
 }
 .goal h1{
     font-family: anuj;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
-    margin:2rem
 }
 .goal p{
-    margin:1rem;
+    margin:2%;
 }
 .goal button{
     margin:2%;
@@ -272,12 +271,11 @@ body{
 }
 .policy h1{
     font-family: anuj;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 600;
-    margin:2rem
 }
 .policy p{
-    margin:1rem;
+    margin:2%;
 }
 .policy button{
     margin:2%;
@@ -363,26 +361,28 @@ body{
     text-align: center;
     align-items:center;
     justify-content: center;
-    width:26%;
-    height:58vh;
-    padding: 2rem 1rem;
+    width:20rem;
+    padding: 0.5%;
     background-color: #fff;
     box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.2);
     z-index: 2;
 }
 
 .card h2 {
-    font-size: 28px;
+    font-size: large;
+    margin-top:1rem;
 }
 
 .card p {
-    font-size: 17px;
     line-height: 1.5;
-    margin:25px 0;
+    font-size: medium;
+    margin:1rem;
 }
+
 .card button{
-    width: 60%;
-    padding:4.5%;
+    width: 65%;
+    margin:1rem;
+    padding:0.8rem;
     border:none;
     border-radius: 30px;
     font-size: 15px;
@@ -412,14 +412,6 @@ body{
     object-fit: cover;
 }
 
-.card-left i {
-    position:absolute;
-    font-size: 50px;
-    top:50%;
-    left:50%;
-    color:#fff;
-    z-index:3;
-}
 
 .card-left i:hover {
     cursor:pointer;
@@ -428,8 +420,8 @@ body{
 
 .card-left .card {
     position:absolute;
-    left:10%;
-    top:18%;
+    left:15%;
+    top:16%;
 }
 
 
@@ -574,9 +566,14 @@ footer .bottom {
 }
 
 button:hover{
-    /* background-color:#6a2c36; */
+    background-color:#5a1b26;
     box-shadow: none;
 }
 .images img:hover{
     transform: scale(1.2);
 }
+
+
+
+/* -------------media quaries ----------------- */
+
