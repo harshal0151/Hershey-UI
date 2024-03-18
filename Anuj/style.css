@@ -27,7 +27,6 @@ body{
 /*----------NAVBAR----------*/
 .navbar {
     display:flex;
-    padding-left:6rem;
     padding-top :.5rem;
     align-items: end;
     justify-content: space-between;
@@ -49,7 +48,7 @@ body{
 
 .logo img{
     height:70px;
-    margin-bottom: -4px;
+    margin-left:25%;
 }
 
 .nav-wrap {
@@ -65,8 +64,7 @@ body{
 
 .utility-nav {
     align-self: flex-end;
-    padding-right:4rem;
-    margin-right: 10%;
+    margin-right: 16%;
 }
 
 .utility-nav ul li {
@@ -84,11 +82,14 @@ body{
 }
 
 .main-nav {
+    margin-left: 5%;
+    width: 100%;
     background-color:#3f000b;
 }
 
 .main-nav ul li {
     margin: 0 0.2rem;
+    padding:0.1rem;
     position:relative; 
 }
 .main-nav ul li a {
@@ -111,7 +112,8 @@ body{
 }
 
 .search-2 {
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 900;
     padding:1.5rem;
     color:#3f000b;
     display:none;
@@ -136,11 +138,13 @@ body{
 }
 
 
-/* ------hero section css------- */
-.hero{
+
+/*---------------------- ------hero section css----------------- */
+
+
+/* .hero{
     display: flex;
     width: 100%;
-    height:55vh;
     min-height: 395px;
 }
 
@@ -161,7 +165,7 @@ body{
  #headding h1 {
    font-family: "anuj";
    width: 65%;
-   font-size: 40px;
+   font-size: 250%;
    font-weight: 800;
    margin:1rem;
    color: #feebd0;
@@ -181,9 +185,56 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+ } */
+ .hero{
+    display: flex;
+    width: 100%;
+    min-height: 395px;
+}
+
+ .headding{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3f000b;
+ }
+ #headding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+ }
+ #headding h1 {
+   font-family: "anuj";
+   width: 80%;
+   font-size: 240%;
+   font-weight: 800;
+   margin:1rem;
+   color: #feebd0;
+ }
+ #headding p{
+    width: 80%;
+    line-height: 1.5rem;
+    color: #feebd0;
+    
+}
+ .leady{
+    width: 50%;
+ }
+ .leady img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
  }
 
+
+
 /* -------------------this is about css------------------------- */
+
+
+
 .about{
     display: flex;
     flex-direction: column;
@@ -198,7 +249,7 @@ body{
 .info h1{
     background-color: #efeaea;
     font-family: anuj;
-    font-size: 40px;
+    font-size: 230%;
     font-weight: 900;
     margin:2.5rem;
 }
@@ -206,7 +257,7 @@ body{
     color: #333333;
     width: 70%;
     margin:2.5rem;
-    font-size: 17px;
+    font-size: 100%;
     font-weight: 500;
     line-height: 1.5rem;
 }
@@ -216,7 +267,7 @@ body{
     padding:1.5%;
     border:none;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 90%;
     color: #feebd0;
     background-color:#3f000b;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.7);
@@ -224,14 +275,14 @@ body{
 .goal-policy{
     background-image: url(assets/colorfullbg.svg);
     background-color: #91268e;
-    height: 70vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
     gap:1.5%;
 }
 .goal{
-    height: 55vh;
+    margin:5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,25 +293,25 @@ body{
 }
 .goal h1{
     font-family: anuj;
-    font-size: 45px;
+    font-size: 250%;
     font-weight: 600;
+    padding:5%;
 }
 .goal p{
-    margin:2%;
+    margin:5%;
 }
 .goal button{
-    margin:2%;
+    margin:5%;
     width: 40%;
     padding:2.8%;
     border:none;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 90%;
     color: #feebd0;
     background-color:#3f000b;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.7);
 }
 .policy{
-    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,23 +322,30 @@ body{
 }
 .policy h1{
     font-family: anuj;
-    font-size: 45px;
+    font-size: 250%;
     font-weight: 600;
+    padding:5%;
 }
 .policy p{
-    margin:2%;
+    margin:5%;
 }
 .policy button{
-    margin:2%;
+    margin:5%;
     width: 40%;
     padding:2.8%;
     border:none;
     border-radius: 30px;
-    font-size: 15px;
+    font-size:90%;
     color: #feebd0;
     background-color:#3f000b;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.7);
 }
+
+
+/* -----------focus section----------- */
+
+
+
 .focous-people{
     display: flex;
     background-color: #feebd0;
@@ -301,7 +359,7 @@ body{
 }
 .focus h1{
     font-family: anuj;
-    font-size: 40px;
+    font-size: 240%;
     font-weight: 1000;
 }
 .focus button{
@@ -309,7 +367,7 @@ body{
     padding:2.8%;
     border:none;
     border-radius: 30px;
-    font-size: 17px;
+    font-size: 90%;
     color: #feebd0;
     background-color:#3f000b;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.7);
@@ -357,6 +415,7 @@ body{
 
 .card {
     display:flex;
+    /* height: 70vh; */
     flex-direction: column;
     text-align: center;
     align-items:center;
@@ -369,13 +428,13 @@ body{
 }
 
 .card h2 {
-    font-size: large;
+    font-size: 18px;
     margin-top:1rem;
 }
 
 .card p {
     line-height: 1.5;
-    font-size: medium;
+    font-size: 15px;
     margin:1rem;
 }
 
@@ -385,7 +444,7 @@ body{
     padding:0.8rem;
     border:none;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 80%;
     color: #feebd0;
     background-color:#3f000b;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.7);
@@ -577,3 +636,57 @@ button:hover{
 
 /* -------------media quaries ----------------- */
 
+@media screen and (max-width:1290px){
+    /* .logo img{
+        margin-left: %;
+        } */
+
+    .main-nav ul li a {
+       padding: 1rem 1rem;
+    }
+    .main-nav {
+      margin-left: 7%;
+    
+     }
+     .socials a i{
+       padding:5px;
+      }
+ }
+ 
+ @media screen and (max-width:1190px){
+    
+   .logo img{
+    margin-left: 25%;
+    }
+   .main-nav {
+    margin-left: 8%;
+    }
+    .main-nav ul li a {
+       padding: 1rem 0.5rem;
+   }
+   .socials a i{
+    padding:5px;
+   }
+ }
+ 
+ @media screen and (max-width:1015px){
+    .hamburger {
+       display:block;
+    }
+     .search-2{
+       display: block;
+     }
+     .main-nav{
+       display: none;
+     }
+     .utility-nav{
+       display: none;
+     }
+     .logo img{
+       margin-left: 3%;
+     }
+     .socials a i{
+       font-size: 120%;
+       margin:0.1% 0;
+      }
+ }
