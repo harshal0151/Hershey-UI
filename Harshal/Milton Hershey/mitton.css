@@ -301,6 +301,17 @@ a {
     width: 100%;
   }
 }
+@media screen and (max-width: 900px) {
+  .history_text {
+    width: 100%;
+  }
+
+  .milton_history {
+    padding: 3rem 3rem;
+  }
+}
+
+
 /* timeline section  */
 
 .timeline {
@@ -714,8 +725,152 @@ a {
     position: relative;
   }
   
+  @media only screen and (max-width: 1280px) {
+    .Democratizing {
+      padding: 2rem;
+    }
+    .Democratizing .Democratizing_card .p_card {
+      width: 400px;
+      padding: 1rem;
+      top: 10%;
+      left: 0%;
+    }
+    .Democratizing .Democratizing_img {
+      width: 100%;
+      margin-right: 2rem;
+  
+    }
+  }
+  @media only screen and (max-width: 1150px) {
+    .Democratizing {
+      padding: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .Democratizing .Democratizing_card .p_card {
+      width: 400px;
+      padding: 1rem;
+      top: 5%;
+      left: 0%;
+    }
+    .Democratizing .Democratizing_img {
+      width: 100%;
+      margin: 0;
+    }
+    .Democratizing .Democratizing_img img{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+    .Democratizing {
+      height: 120vh;
+    }
+    .Democratizing .Democratizing_card{
+      width: 0;
+    }
   
   
+    .Democratizing .Democratizing_card .p_card {
+      width: 800px;
+      top: 50%;
+      left: 0px;
+      margin-left: 1rem;
+    }
+  }
+
+  
+@media screen and (max-width: 860px) {
+  .Democratizing {
+    height: 130vh;
+  }
+
+
+  .Democratizing .Democratizing_card .p_card {
+    width: 750px;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .Democratizing .Democratizing_card .p_card {
+    top: 40%;
+    margin-left: 1rem;
+  }
+  .Democratizing {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Democratizing {
+    height: 90vh;
+    background: none;
+  }
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .Democratizing .Democratizing_card .p_card {
+    width: 700px;
+    top: 60%;
+    left: 30px;
+    margin-left: 0rem;
+  }
+  .Democratizing .Democratizing_card h2 {
+    font-size: 1.5rem;
+  }
+  .Democratizing .Democratizing_card p {
+    font-size: 1rem;
+  }
+  .Democratizing .Democratizing_card .btn {
+    padding: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width: 730px) {
+  .Democratizing .Democratizing_card .p_card {
+    width: 600px;
+    top: 60%;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .Democratizing .Democratizing_card .p_card {
+    width: 550px;
+    top: 60%;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .Democratizing .Democratizing_card .p_card {
+    width: 500px;
+    top: 45%;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .Democratizing .Democratizing_card .p_card {
+    width: 400px;
+    top: 45%;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .Democratizing .Democratizing_card .p_card {
+    position: relative;
+    top: 35%;
+    left: 20px;
+  }
+}
 /* footer section  */
 
 footer {
