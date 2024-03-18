@@ -153,21 +153,22 @@ p {
 
 /* ---------HERO--------------- */
 .hero-licensing {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
     margin-top: 7.8rem;
 
 }
 .hero-licensing .hero-con-1 {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     background-color: #3f000b;
 }
 
 .hero-licensing .hero-con-1 .con-1-content {
-    padding: 3rem 6rem 3rem;
-    width: 40vw;
+    padding: 5rem 5rem;
+    width: 50vw;
     margin: auto;
 
 }
@@ -177,12 +178,12 @@ p {
     height: 100%;
 }
 .hero-licensing .hero-con-1 .con-1-content h1 {
-    font-size: 2rem;
+    font-size: 2.6rem;
     color: #feebd0;
 }
 
 .hero-licensing .hero-con-1 .con-1-content  p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     color: #feebd0;
 }
@@ -192,9 +193,9 @@ p {
 #grow {
     background-image:url(../Brands_Assets/kiss_pattern_a-munsell_transparent.webp);
     background-color: #91268e;
-    background-image: no-repeat;
-    background-position: center;
-    background-size: cover;
+    /* background-image: no-repeat; */
+    /* background-position: center;
+    background-size: cover; */
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -203,27 +204,28 @@ p {
     padding: 5rem 8rem 5rem 8rem;
 }
 .grow-content {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
     /* padding: 5rem 8rem 5rem 15rem; */
 }
 
 .grow-text {
-    /* width: 100%;
-    height: 100%; */
-    width: 34.063rem;
-    height: 34.063rem;
+    width: 100%;
+    /* height: 100%; */
+    /* width: 34.063rem;
+    height: 34.063rem; */
     background-color:aliceblue;
     /* min-height: 545px; */
     
 
 }
 .grow-img {
-    /* width: 100%;
-    height: 100%; */
-    width: 34.063rem;
-    height: 34.063rem;
+    width: 100%;
+    height: 100%;
+    /* width: 34.063rem;
+    height: 34.063rem; */
 }
 
 .grow-text-content  {
@@ -598,3 +600,351 @@ footer .bottom {
 }
 
 
+
+
+/* --------MEDIA QUERIES------------ */
+@media all and (max-width: 1396px) {
+    
+    
+}
+/* _________________________________________ */
+
+@media all and (max-width: 1030px) {
+    
+.hero-licensing .hero-con-1 .con-1-content {
+    padding: 3rem 3rem;
+    width: 50vw;
+    margin: auto;
+
+}
+.updates h2 {
+    font-size: 2rem;
+}
+
+
+.updates .updates_con .cards .card_con h3 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.updates .updates_con .cards .card_con p {
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.updates {
+    padding: 3rem 5rem;
+} 
+
+
+.global-content {
+    background-color: #91268e;
+    padding: 2rem 2rem ;
+
+}
+
+}
+/* _________________________________________ */
+
+@media all and (max-width: 780px) {
+
+    
+    .hero-licensing {
+        /* display: block; */
+        flex-direction: column-reverse;
+
+    }
+    .hero-licensing .hero-con-1 .con-1-content {
+        padding: 0.5rem 1rem;
+        margin-top:1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .hero-licensing  .hero-con-1 .con-1-content h1 {
+        font-size: 2.1rem;
+
+    }
+    .hero-licensing .hero-con-1 .con-1-content  p {
+        font-size: 1rem;
+        line-height: 1.5;
+        padding-bottom: 2rem;
+    
+    }
+
+
+    /* -------------------------- */
+    #grow .grow-content {
+        flex-direction: column-reverse;
+
+    }
+    #grow .grow-content .grow-img {
+        /* width: 100%; */
+
+        height: 60%;
+        margin-top: 0%;
+        text-align: center;
+        
+    }
+    #grow {
+        padding: 2rem 1rem;
+    }
+
+    .grow-text .grow-text-content {
+        
+        padding: 1rem 1rem;
+        width: 100%;
+    }
+
+    .grow-img img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    
+
+
+
+/* ----------------- */
+
+
+.updates .updates_con .cards .card_con h3 {
+    font-size: .7rem;
+}
+
+.updates {
+    padding: 3rem;
+}
+.updates .updates_con .cards .card_con {
+    padding: .5rem;
+} 
+
+
+.global-content {
+    padding: 2rem 2rem;
+    width: 80vw;
+    /* height: 50vh; */
+    margin: auto;
+}
+
+.button {
+    padding: 0.8rem;
+    text-decoration: none;
+    color: #feebd0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-top: 2rem;
+    width: 60vw;
+}
+
+
+}
+
+
+
+/* _________________________________________ */
+
+@media all and (max-width: 430px) {
+    
+
+
+#grow-text {
+    width: 20%;
+}
+        
+    
+
+    .updates, #three, #five {
+        padding: 7.5rem 2rem 2rem 2rem;
+    }
+
+
+    .updates .updates_con {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .updates .updates_con .cards {
+        width: 100%;
+    }
+}
+
+/* -------Header and Footer Media queries */
+@media screen and (min-width:1600px) {
+    .navbar .utility-nav {
+        max-width:1600px;
+        margin-left: 50%;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:1338px) {
+
+    .navbar {
+        padding-left:2rem;
+    }
+
+    .main-nav ul li a {
+        padding:1rem 1rem;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .toggle p {
+        font-size: 12px;
+    }
+
+    .bottomleft a {
+        padding-left: 1rem;
+        margin:0;
+        font-size: 10px;
+    }
+
+    .tl ul.tl-one {
+        margin-left:2rem;
+    }
+    
+    .tl ul li {
+        line-height: 1.2;
+    }
+
+    .tl ul li a {
+        font-size: 10px;
+    }
+
+    .tr ul li a {
+        font-size: 10px;
+    }
+
+    .bottomright p {
+        font-size: 12px;
+        margin-bottom:1rem;
+    }
+}
+
+@media  screen and (max-width:1100px) {
+    
+    .navbar { 
+        padding-left:1.5rem;
+    }
+
+    .main-nav ul li a {
+        padding:1rem 1rem;
+        font-size: 13px;
+    }
+
+    .main-nav ul li {
+        margin:0;
+    }
+
+}
+
+@media screen and (max-width:990px)
+{
+    .navbar {
+        align-items: center;
+        padding-bottom:0;
+    }
+    .hero-licensing {
+        margin-top: 3.2rem;
+    }
+    
+    .logo img {
+        height:50px;
+    }
+    .navbar .hamburger {
+        display: block;
+        padding: 1rem;
+        font-size: 24px;
+    }
+
+    .navbar .nav-wrap {
+        display:none;
+    }
+
+    .navbar .search-2 {
+        display:block;
+        padding:1rem;
+        font-size: 24px;
+    }
+
+    main {
+        margin-top:3.2rem;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+ 
+    footer .top {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    
+    }
+    .top .topright {
+      width: 100%;
+      padding: 1rem 1rem 0;
+      text-align: center;
+    }
+    .topright .tr {
+      padding: 1rem;
+      border-top: 3px solid #3f000b;
+      border-left: none;
+    }
+    .top .topleft{
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .tl ul.tl-one {
+      margin-left: 0rem;
+    }
+  
+    .top .topleft .tl{
+      width: 100%;
+    }
+    .toggle {
+      padding: 10px 0;
+      margin-bottom: 2rem;
+    }
+
+    footer .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .bottom .bottomleft {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottomleft a {
+        padding-bottom:.7rem;
+    }
+
+    .bottomright {
+        padding:0;
+        width:100%;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    footer {
+        padding-top:4rem;
+    }
+}
+@media screen and (max-width:375px) {
+    footer {
+        padding-top:6rem;
+    }
+}
+    
