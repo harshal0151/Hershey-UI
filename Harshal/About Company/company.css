@@ -144,6 +144,75 @@ a {
   display: block;
 }
 
+
+.main-nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+@media screen and (min-width:1600px) {
+    .navbar .utility-nav {
+        max-width:1600px;
+        margin-left: 50%;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:1338px) {
+
+    .navbar {
+        padding-left:2rem;
+    }
+    .main-nav ul li a {
+        padding:1rem 1rem;
+    }
+}
+@media  screen and (max-width:1100px) {
+    
+    .navbar {
+        padding-left:1.5rem;
+    }
+
+    .main-nav ul li a {
+        padding:1rem 1rem;
+        font-size: 13px;
+    }
+
+    .main-nav ul li {
+        margin:0;
+    }
+}
+
+@media screen and (max-width:990px)
+{
+  
+.about_company {
+  margin-top: -3.4rem;
+}
+    .navbar {
+        align-items: center;
+        padding-bottom:0;
+    }
+    
+    .logo img {
+        height:50px;
+    }
+    .navbar .hamburger {
+        display: block;
+        padding: 1rem;
+        font-size: 24px;
+    }
+
+    .navbar .nav-wrap {
+        display:none;
+    }
+
+    .navbar .search-2 {
+        display:block;
+        padding:1rem;
+        font-size: 24px;
+    }
+  }
+
+
 /* route section  */
 .route {
   height: 40px;
@@ -937,4 +1006,48 @@ footer .bottom {
 
 .bottomright a:hover {
   text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 860px) {
+ 
+  footer .top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .top .topright {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+  .topright .tr {
+    padding: 1rem;
+    border-top: 3px solid #3f000b;
+    border-left: none;
+  }
+  .top .topleft{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tl ul.tl-one {
+    margin-left: 0rem;
+  }
+
+  .top .topleft .tl{
+    width: 100%;
+  }
+  .toggle {
+    padding: 10px 0;
+    margin-bottom: 2rem;
+  }
+  footer .bottom {
+    display: none;
+  }
 }
