@@ -249,6 +249,16 @@ p {
 }
 
 /* --------------UPDATES-------------------- */
+/* .updates .updates_con .cards .image {
+    cursor: pointer;
+}
+
+.updates .updates_con  .cards .image img {
+    transition: transform 300ms;
+} */
+
+
+
 .updates h2 {
     color: #feebd0;
     font-size: 3rem;
@@ -293,9 +303,15 @@ p {
     line-height: 1.4;
     font-weight: 800;
 }
+
+
 .updates .updates_con .cards .card_con a {
     text-decoration: underline;
     color: #3f000b;
+}
+
+.updates .updates_con .cards .card_con a:hover{
+    text-decoration: none;
 }
 .updates .updates_con .cards .card_con p {
     color: #3f000b;
@@ -373,7 +389,7 @@ p {
 }
 
 
-a.button {
+.button {
     padding: 1.2rem;
     background-color: #3f000b;
     text-decoration: none;
@@ -383,6 +399,9 @@ a.button {
     border-radius: 50px;
     margin-top: 2rem;
     /* width: 100vw; */
+}
+.button:hover {
+    background-color: #9f8085;
 }
 
 /* a.button {

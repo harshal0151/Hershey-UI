@@ -318,6 +318,10 @@ p {
     margin-top: 2rem;
 }
 
+.button:hover {
+    background-color: #9f8085;
+}
+
 /* ---------ARTICLE-2------------- */
 
 #article-2 {
@@ -337,12 +341,15 @@ p {
     text-align: center;
     padding: 15rem 1rem;
     }
-
+/* .article-2-sec-right {
+    cursor: pointer;
+} */
 
 .article-2-sec-right img {
     width: 100%;
     height: 80%;
     margin-top: 10%;
+    
 }
 
 .article-2-sec-left > h2 {
@@ -368,21 +375,29 @@ p {
     border-radius: 50px;
     margin-top: 2rem;
 }
-    
+.brown-button:hover {
+    background-color: #9f8085;
+}
 
 /* -----For text with Underline-------------- */
 .button-front-text a {
     border-bottom: solid 1px;
     border-bottom-color: #feebd0;
     color: #feebd0;
-
 }
+.button-front-text a:hover {
+    border:none;
+}
+
 .article-5-button-front-text a{
     border-bottom: solid 1px;
     border-bottom-color: #3f000b;
     color: #3f000b;
-
 }   
+.article-5-button-front-text a:hover {
+    border:none;
+}
+
 /* ---------ARTICLE-3--------- */
 #article-3 {
     background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/snacks-pattern.svg);
@@ -500,6 +515,7 @@ p {
 .article-5-sec-left img {
     width: 100%;
     height: 100%;
+    /* object-fit: cover; */
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
 }
 
