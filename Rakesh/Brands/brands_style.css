@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: "Main-font";
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/gazpacho-black.otf);
+    src: url(../Brands_Assets/gazpacho-black.otf);
 }
 
 @font-face {
     font-family:'TT-norms-bold';
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
+    src: url(../Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
 }
 
 @font-face {
     font-family: 'TT-norms-reg';
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
+    src: url(../Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
 }
 html {
     font-family:'TT-norms-reg';
@@ -170,7 +170,7 @@ p {
     padding: 3rem 6rem 3rem;
     width: 40vw;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
 
 }
 
@@ -179,13 +179,13 @@ p {
     height: 100%;
 }
 .hero  .hero-con-1 .con-1-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #feebd0;
     font-family:"Main-font";
 }
 
 .hero .hero-con-1 .con-1-content  p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     color: #feebd0;
 
@@ -318,6 +318,10 @@ p {
     margin-top: 2rem;
 }
 
+.button:hover {
+    background-color: #9f8085;
+}
+
 /* ---------ARTICLE-2------------- */
 
 #article-2 {
@@ -337,12 +341,15 @@ p {
     text-align: center;
     padding: 15rem 1rem;
     }
-
+/* .article-2-sec-right {
+    cursor: pointer;
+} */
 
 .article-2-sec-right img {
     width: 100%;
     height: 80%;
     margin-top: 10%;
+    
 }
 
 .article-2-sec-left > h2 {
@@ -368,21 +375,29 @@ p {
     border-radius: 50px;
     margin-top: 2rem;
 }
-    
+.brown-button:hover {
+    background-color: #9f8085;
+}
 
 /* -----For text with Underline-------------- */
 .button-front-text a {
     border-bottom: solid 1px;
     border-bottom-color: #feebd0;
     color: #feebd0;
-
 }
+.button-front-text a:hover {
+    border:none;
+}
+
 .article-5-button-front-text a{
     border-bottom: solid 1px;
     border-bottom-color: #3f000b;
     color: #3f000b;
-
 }   
+.article-5-button-front-text a:hover {
+    border:none;
+}
+
 /* ---------ARTICLE-3--------- */
 #article-3 {
     background-image:url(https://www.thehersheycompany.com/content/dam/hershey-corporate/images/patterns/snacks-pattern.svg);
@@ -461,8 +476,18 @@ p {
 .article-4-sec-left  p, .button-front-text a {
     color: #feebd0;
     font-size: 1.5rem;
+    font-weight: 700;
    
 }
+
+.button-front-text a {
+    color: #feebd0;
+    font-size: 1.1rem;
+    font-weight: 800;
+   
+}
+
+
 /* ---------ARTICLE-5------------- */
 
 
@@ -490,6 +515,7 @@ p {
 .article-5-sec-left img {
     width: 100%;
     height: 100%;
+    /* object-fit: cover; */
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
 }
 
@@ -503,6 +529,7 @@ p {
 .article-5-sec-right  p, .article-5-button-front-text a {
     color: #3f000b;
     font-size: 1.5rem;
+    font-weight: 800;
     
 
 }
