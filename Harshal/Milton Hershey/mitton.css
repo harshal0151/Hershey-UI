@@ -217,7 +217,6 @@ margin-top: -3.4rem;
  .route a {
   color: #3f000b;
   margin: 0.3rem;
-  font-family: montserrat;
   font-weight: bolder;
 }
 .route a:hover {
@@ -231,7 +230,6 @@ margin-top: -3.4rem;
 }
  .route p {
   margin: 0.3rem;
-  font-family: montserrat;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.4);
 }
