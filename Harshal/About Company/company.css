@@ -1045,7 +1045,12 @@ footer .bottom {
     padding: 10px 0;
     margin-bottom: 2rem;
   }
-  footer .bottom {
+  footer .bottom .bottomleft {
     display: none;
+    
   }
+  footer .bottom .bottomright {
+    width: 100%;
+    text-align: center;
+}
 }
