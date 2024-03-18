@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: "Main-font";
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/gazpacho-black.otf);
+    src: url(../Brands_Assets/gazpacho-black.otf);
 }
 
 @font-face {
     font-family:'TT-norms-bold';
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
+    src: url(../Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
 }
 
 @font-face {
     font-family: 'TT-norms-reg';
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
+    src: url(../Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
 }
 html {
     font-family:'TT-norms-reg';

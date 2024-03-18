@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: "Main-font";
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/gazpacho-black.otf);
+    src: url(../Brands_Assets/gazpacho-black.otf);
 }
 
 @font-face {
     font-family:'TT-norms-bold';
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
+    src: url(../Brands_Assets/TT\ Norms\ Pro\ Bold.otf);
 }
 
 @font-face {
     font-family: 'TT-norms-reg';
-    src: url(/Hershey-UI/Rakesh/Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
+    src: url(../Brands_Assets/TT\ Norms\ Pro\ Regular.otf);
 }
 html {
     font-family:'TT-norms-reg';
@@ -170,7 +170,7 @@ p {
     padding: 3rem 6rem 3rem;
     width: 40vw;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
 
 }
 
@@ -179,13 +179,13 @@ p {
     height: 100%;
 }
 .hero  .hero-con-1 .con-1-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #feebd0;
     font-family:"Main-font";
 }
 
 .hero .hero-con-1 .con-1-content  p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     color: #feebd0;
 
@@ -461,8 +461,18 @@ p {
 .article-4-sec-left  p, .button-front-text a {
     color: #feebd0;
     font-size: 1.5rem;
+    font-weight: 700;
    
 }
+
+.button-front-text a {
+    color: #feebd0;
+    font-size: 1.1rem;
+    font-weight: 800;
+   
+}
+
+
 /* ---------ARTICLE-5------------- */
 
 
@@ -503,6 +513,7 @@ p {
 .article-5-sec-right  p, .article-5-button-front-text a {
     color: #3f000b;
     font-size: 1.5rem;
+    font-weight: 800;
     
 
 }
