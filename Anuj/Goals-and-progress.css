@@ -1,0 +1,1232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src:url(assets/Gazpacho\ Bold.ttf);
+    font-family: "anuj";
+}
+
+html {
+    font-family:"TT norms pro", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+p{
+    font-family:"TT norms pro", sans-serif;
+    line-height: 1.5rem;
+    color:#575656;
+    font-size: 17px;
+
+}
+body{
+    background-color: rgb(255, 251, 251);
+}
+/*----------NAVBAR----------*/
+
+
+.navbar {
+   display:flex;
+   padding-left:6rem;
+   padding-top :.5rem;
+   align-items: end;
+   justify-content: space-between;
+   width:100%;
+   padding-bottom: .8rem;
+   background-color: #fff;
+   box-shadow: 0 4px 2px -1px rgba(0, 0, 0, 0.2);
+   position: sticky;
+   top:0;
+   z-index: 999;
+}
+
+.hamburger {
+   display:none;
+   font-size: 36px;
+   color: #3f000b;
+   padding:1.5rem;
+}
+
+.logo img{
+   height:70px;
+   margin-bottom: -4px;
+}
+
+.nav-wrap {
+   display: flex;
+   flex-direction: column;
+   width:80%;
+}
+
+.menu {
+   display: flex;
+   align-items: center;
+}
+
+.utility-nav {
+   align-self: flex-end;
+   padding-right:4rem;
+   margin-right: 5%;
+}
+
+.utility-nav ul li {
+   padding: 1rem;
+}
+.utility-nav ul li a {
+   color: #707070;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 13px;
+}
+
+.utility-nav ul li a:hover {
+   text-decoration: underline;
+}
+
+.main-nav {
+   background-color:#3f000b;
+}
+
+.main-nav ul li {
+   margin: 0 0.2rem;
+   position:relative; 
+}
+.main-nav ul li a {
+   color: #feebd0;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding: 1rem 1.5rem;
+}
+
+.search{
+   font-size:20px;
+   font-weight: 600;
+}
+
+.main-nav>ul>li>a:hover {
+   background-color: #553b33;
+}
+
+.search-2 {
+   font-size: 40px;
+   padding:1.5rem;
+   color:#3f000b;
+   display:none;
+}
+
+/* DROPDOWN-menu */
+.main-nav ul li ul.dropdown {
+   width:310px;
+   margin-left:-3px;
+   position:absolute;
+   z-index:999;
+   background-color:#3f000b;
+   display:none;
+}
+
+.main-nav ul li ul.dropdown li:hover{
+   background-color:#652f33;
+}
+
+.main-nav ul li:hover ul.dropdown {
+   display:block;
+}
+
+
+/* ----------------new section-------------- */
+.realtimepage{
+    display: flex;
+    align-items: center;
+    margin:2%;
+    gap:1.3%;
+}
+
+/* ------------------hero section---------------- */
+
+.hero{
+    display: flex;
+    width: 100%;
+    min-height: 395px;
+}
+
+ .headding{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3f000b;
+ }
+ #headding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+ }
+ #headding h1 {
+   font-family: "anuj";
+   width: 80%;
+   font-size: 240%;
+   font-weight: 800;
+   margin:1rem;
+   color: #feebd0;
+ }
+ #headding p{
+    width: 80%;
+    line-height: 1.5rem;
+    color: #feebd0;
+    
+}
+ .leady{
+    width: 50%;
+ }
+ .leady img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ /* -------------goal section css--------------- */
+
+ .goal{
+    width: 75%;
+    margin-top:8%;
+    margin-left:15%;
+ }
+ .one{
+    width: 100%;
+    background-color: #00a8e2;
+    color: white;
+    font-family: anuj;
+    font-size: 90%px;
+    display: flex;
+    align-items: center;
+    padding:2%;
+ }
+ .two{
+    width: 100%;
+    background-color: #eeeeee;
+    color: black;
+    font-family: anuj;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    padding:2%;
+ }
+ .part1{
+        width: 55%;
+ }
+ .part2{
+    font-weight: 700;
+    width: 14%;
+    margin:2%;
+    
+ }
+ .part3{
+    padding-left: 2%;
+    width: 31%;
+   
+ }
+ b{
+    font-size: 20px;
+ }
+ hr{
+    color:#eeeeee;
+ }
+ .three{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5%;
+ }
+ .four{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5%;
+ }
+ .fifth{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5%;
+ }
+ .six{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5%;
+ }
+
+ .percentage1{
+    margin:0.1rem;
+    width: 100%;
+    background-color: #eeeeee;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    
+ }
+ .percentage2{
+   margin:0.1rem;
+   width: 100%;
+   background-color: #eeeeee;
+   height: 20px;
+   text-align: center;
+   font-weight: 700;
+   
+}
+.percentage3{
+   margin:0.1rem;
+   width: 100%;
+   background-color: #eeeeee;
+   height: 20px;
+   text-align: center;
+   
+}
+.percentage4{
+   margin:0.1rem;
+   width: 100%;
+   background-color: #eeeeee;
+   height: 20px;
+   text-align: center;
+   
+}
+ .thirdper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+    background-color: #00a8e2;
+    font-weight: 700;
+ }
+
+
+ .fourthper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 77%;
+    height: 20px;
+    background-color: #00a8e2;
+   font-weight: 700;
+ }
+ 
+ .fifthper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 64%;
+    height: 20px;
+    background-color: #00a8e2;
+    font-weight: 700;
+ }
+ 
+ .sixper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 72%;
+    height: 20px;
+    background-color: #00a8e2;
+   font-weight: 700;
+ }
+ .seventh{
+    padding:3%;
+ }
+ .seventh p{
+    font-style: italic;
+ }
+
+
+
+
+/* ----------goal second part----------- */
+
+
+
+
+.one-2{
+    width: 100%;
+    background-color: #eb5d14;
+    color: white;
+    font-family: anuj;
+    font-size: 90%;
+    display: flex;
+    align-items: center;
+    padding:2%;
+ }
+ .two-2{
+    width: 100%;
+    background-color: #eeeeee;
+    color: black;
+    font-family: anuj;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    padding:2%;
+ }
+ .three-2{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5%;
+ }
+ .four-2{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5%;
+ }
+ .fifth-2{
+    padding:3%;
+ }
+ .fifth-2 p{
+    font-style: italic;
+ }
+ .percentage1-2{
+   margin:0.1rem;
+   width: 100%;
+   background-color: #eeeeee;
+   height: 20px;
+   text-align: center;
+   
+}
+.percentage2-2{
+   margin:0.1rem;
+   width: 100%;
+   background-color: #eeeeee;
+   height: 20px;
+   text-align: center;
+   
+}
+.thirdper-2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 87%;
+   height: 20px;
+   background-color: #eb5d14;
+   color: white;
+   font-weight: 700;
+}
+.fourthper-2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 37%;
+   height: 20px;
+   background-color: #eb5d14;
+   color: white;
+   font-weight: 700;
+}
+
+
+
+
+
+/* ------------goal part three-------------- */
+
+
+
+.one-3{
+   width: 100%;
+   background-color: #94c240;
+   color: white;
+   font-family: anuj;
+   font-size: 90%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.two-3{
+   width: 100%;
+   background-color: #eeeeee;
+   color: black;
+   font-family: anuj;
+   font-size: 80%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.three-3{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.four-3{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.fifth-3{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.six-3{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+} 
+.seventh-3{
+   padding:3%;
+}
+.seventh-3 p{
+   font-style: italic;
+}
+.percentage1-3{
+   margin:0.1rem;
+   width: 100%;
+   background-color: #eeeeee;
+   height: 20px;
+   text-align: center;
+   font-weight: 700;
+   
+}
+.percentage2-3{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  font-weight: 700;
+  
+}
+.percentage3-3{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  
+}
+.percentage4-3{
+  margin:0.1rem;
+  height: 20px;
+  background-color: #eeeeee;
+  text-align: center;
+  
+}
+.thirdper-3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 41%;
+   height: 20px;
+   background-color: #94c240;
+   font-size: 90%;
+}
+
+
+.fourthper-3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 30%;
+   height: 20px;
+   background-color: #94c240;
+   font-size: 80%;
+}
+
+.fifthper-3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 30%;
+   height: 20px;
+   background-color: #94c240;
+   font-size: 80%;
+}
+
+.sixper-3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 20px;
+   background-color: #94c240;
+   font-size: 90%;
+}
+
+
+
+
+/* ---------goal section part four--------- */
+
+
+
+.one-4{
+   width: 100%;
+   background-color: #814594;
+   color: white;
+   font-family: anuj;
+   font-size: 90%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.two-4{
+   width: 100%;
+   background-color: #eeeeee;
+   color: black;
+   font-family: anuj;
+   font-size: 80%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.three-4{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.four-4{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.fifth-4{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.six-4{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+} 
+.seventh-4{
+   padding:3%;
+}
+.seventh-4 p{
+   font-style: italic;
+}
+.percentage2-4{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  font-weight: 500;
+  
+}
+.percentage3-4{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  
+}
+.percentage4-4{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  
+}
+
+.fourthper-4{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   width: 55%;
+   height: 20px;
+   background-color: #814594;
+   font-size: medium;
+   font-size: 90%;
+}
+
+.fifthper-4{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   width: 40%;
+   height: 20px;
+   background-color: #814594;
+   font-size: 70%;
+}
+
+.sixper-4{ display: flex;
+   align-items: center;
+   justify-content: center;
+
+   color: white;
+   width: 35%;
+   height: 20px;
+   background-color: #814594;
+   font-size: 90%;
+}
+
+
+
+
+/* -------goal section fifth part-------- */
+
+
+
+
+
+.one-5{
+   width: 100%;
+   background-color: #00aea4;
+   color: white;
+   font-family: anuj;
+   font-size: 90%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.two-5{
+   width: 100%;
+   background-color: #eeeeee;
+   color: black;
+   font-family: anuj;
+   font-size: 80%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.three-5{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.four-5{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.fifth-5{
+   padding:3%;
+}
+.fifth-5 p{
+   font-style: italic;
+}
+.percentage1-5{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  
+}
+.percentage2-5{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  
+}
+.thirdper-5{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  width: 100%;
+  height: 20px;
+  background-color: #00aea4;
+  color: white;
+  font-size: 80%;
+}
+.fourthper-5{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 20px;
+   background-color: #00aea4;
+   color: white;
+   font-size: 70%;
+}
+
+
+/* ----------goal six part ----------- */
+
+.one-6{
+   width: 100%;
+   background-color: #e52328;
+   color: white;
+   font-family: anuj;
+   font-size: 90%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.two-6{
+   width: 100%;
+   background-color: #eeeeee;
+   color: black;
+   font-family: anuj;
+   font-size: 80%;
+   display: flex;
+   align-items: center;
+   padding:2%;
+}
+.three-6{
+   width: 100%;
+   color: black;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:5%;
+}
+.four-6{
+   padding:3%;
+}
+.four-6 p{
+   font-style: italic;
+}
+
+.percentage1-6{
+  margin:0.1rem;
+  width: 100%;
+  background-color: #eeeeee;
+  height: 20px;
+  text-align: center;
+  
+}
+.thirdper-6{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 20px;
+   background-color: #e52328;
+   color: white;
+   font-weight: 700;
+}
+
+
+/* ----------footer section--------- */
+
+
+footer {
+   width:100%;
+   padding:5%;
+}
+
+footer .top {
+   width:100%;
+   display:flex;
+   
+   align-items:center;
+   justify-content: space-around;
+}
+
+.top .topleft {
+   width:65%;
+   display:flex;
+   justify-content: space-around;
+}
+
+.top .topleft .tl {
+   width:30%;
+}
+
+.f-logo img{
+   height:70px;
+}
+
+.tl .socials a {
+   text-decoration: none;
+   color:#3f000b;
+}
+.socials{
+   width: 100%;
+}
+
+.socials a i {
+   font-size: 150%;
+   padding:10px;
+   margin:5px 0;
+}
+
+.toggle {
+   padding:10px 0;
+}
+.toggle p{
+   color:#707070;
+}
+.toggle i {
+   font-size:20px;
+   color:#3f000b ;
+}
+
+.tl ul.tl-one {
+   margin-left:4rem;
+}
+
+.tl ul li {
+   padding:5px;
+   line-height: 1.5;
+}
+.tl ul a {
+   color:#3f000b;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.tl ul a:hover {
+   text-decoration: underline;
+}
+
+.top .topright {
+   width:30%;
+   padding:1rem;
+}
+
+.topright .tr {
+   border-left:3px solid #3f000b;
+}
+
+.tr ul li {
+   margin-left:10px;
+   font-size: 13px;
+   padding:5px;
+   line-height: 1.5;
+}
+
+.tr ul a {
+   color: #707070;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.tr ul a:hover {
+   text-decoration: underline;
+}
+
+footer .bottom {
+   width:100%;
+   display:flex;
+   align-items:center;
+}
+
+.bottom .bottomleft {
+   width:65%;
+}
+
+.bottomleft a {
+   margin:1%;
+   padding-left: 2rem;
+   text-decoration: none;
+   color:#707070;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.bottomleft a:hover {
+   text-decoration: underline;
+}
+
+.bottomright {
+   width:30%;
+   padding:1rem;
+}
+
+.bottomright p {
+   color:#707070;
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.bottomright a {
+   text-decoration: none;
+   color:#707070;
+}
+
+.bottomright a:hover {
+   text-decoration: underline;
+}
+
+button:hover{
+   background-color:#6a2c36;
+   box-shadow: none;
+}
+.images img:hover{
+   transform: scale(1.2);
+}
+
+
+
+
+
+/* -----------media quaries------------ */
+
+
+
+@media screen and (max-width:1300px){
+   .navbar{
+      padding-left: 4rem;
+   }
+   .logo img{
+      margin-left: 8%;
+      }
+   .main-nav ul li a {
+      padding: 1rem 1rem;
+   }
+   .main-nav {
+     margin-left: 5%;
+   
+    }
+    .socials a i{
+      padding:5px;
+     }
+}
+
+@media screen and (max-width:1190px){
+   .navbar{
+      padding-left: 2rem;
+   }
+  .main-nav {
+   margin-left: 4%;
+   }
+   .main-nav ul li a {
+      padding: 1rem 0.5rem;
+  }
+  .socials a i{
+   padding:5px;
+  }
+}
+
+@media screen and (max-width:1015px){
+   .hamburger {
+      display:block;
+   }
+    .search-2{
+      display: block;
+    }
+    .main-nav{
+      display: none;
+    }
+    .utility-nav{
+      display: none;
+    }
+    .logo img{
+      margin-left: 3%;
+    }
+    .socials a i{
+      font-size: 120%;
+      margin:0.1% 0;
+     }
+}
+
+@media  screen and (max-width:930px) {
+   #headding h1 {
+      font-size: 33px;
+      }
+      .part3{
+         padding-left: 5%;
+         width: 35%;
+      }
+          .socials{
+            margin-top:10%;
+            margin-bottom: 10%;
+          }
+         .socials a i{
+            font-size: 105%;
+            padding:4px;
+           }
+   }
+   
+   @media screen and (max-width:800px){
+      .tl ul li {
+         padding:5px;
+         line-height: 1.5;
+      }
+      .tl ul a {
+         color:#3f000b;
+         font-size: 13px;
+         font-weight: 700;
+         text-decoration: none;
+      }
+      .tr{
+         margin-top:7rem;
+      }
+   
+      #headding h1{
+        font-size: 28px;
+      }
+      .part3{
+         padding-left: 10%;
+         width: 40%;
+      }
+      .hero{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      .headding,.leady{
+         width: 100%;
+      }
+      .headding h1{
+         width: 60%;
+         padding:3%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+      }
+      .headding p{
+         width: 50%;
+         padding:5%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+      }
+      footer .top {
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+       
+       }
+       .top .topright {
+         width: 100%;
+         padding: 1rem 1rem 0;
+         text-align: center;
+       }
+       .topright .tr {
+         padding: 1rem;
+         border-top: 3px solid #3f000b;
+         border-left: none;
+       }
+       .top .topleft{
+         width: 100%;
+         padding: 1rem;
+         text-align: center;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+       }
+       .tl ul.tl-one {
+         margin-left: 0rem;
+       }
+     
+       .top .topleft .tl{
+         width: 100%;
+       }
+       .toggle {
+         padding: 10px 0;
+         margin-bottom: 2rem;
+       }
+   
+       footer .bottom {
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+   
+       footer .bottom .bottomleft {
+           display:flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+   
+       .bottomleft a {
+           padding-bottom:.7rem;
+       }
+   
+       .bottomright {
+           padding:0;
+           width:100%;
+           text-align: center;
+       }
+     }
+
+     @media  screen and (max-width:600px) {
+       
+      .part1{
+         width: 60%;
+      }
+      .part2{
+       font-weight: 700;
+       padding-left: 2%;
+       width: 20%;
+       margin:2%;
+     
+     }
+      .part3{
+      margin:2%;
+      padding: 5%;
+      width: 40%;
+      }
+   }

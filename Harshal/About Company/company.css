@@ -3,9 +3,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "heading";
+  src: url(./assets/gazpacho-black.otf);
+}
+
+@font-face {
+  font-family: "TT-norms-bold";
+  src: url(./assets/TT\ Norms\ Pro\ Bold.otf);
+}
+
+@font-face {
+  font-family: "TT-norms-reg";
+  src: url(./assets/TT\ Norms\ Pro\ Regular.otf);
+}
+html {
+  font-family: "TT-norms-reg";
+}
+h1,
+h2,
+h3 {
+  font-family: "heading";
+}
 
 ul {
   list-style: none;
+  font-family: "TT-norms-bold";
 }
 a {
   display: inline-block;
@@ -81,7 +104,6 @@ a {
 .main-nav ul li a {
   color: #feebd0;
   text-decoration: none;
-  font-family: "TT norms pro", sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -122,6 +144,75 @@ a {
   display: block;
 }
 
+
+.main-nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+@media screen and (min-width:1600px) {
+    .navbar .utility-nav {
+        max-width:1600px;
+        margin-left: 50%;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:1338px) {
+
+    .navbar {
+        padding-left:2rem;
+    }
+    .main-nav ul li a {
+        padding:1rem 1rem;
+    }
+}
+@media  screen and (max-width:1100px) {
+    
+    .navbar {
+        padding-left:1.5rem;
+    }
+
+    .main-nav ul li a {
+        padding:1rem 1rem;
+        font-size: 13px;
+    }
+
+    .main-nav ul li {
+        margin:0;
+    }
+}
+
+@media screen and (max-width:990px)
+{
+  
+.about_company {
+  margin-top: -3.4rem;
+}
+    .navbar {
+        align-items: center;
+        padding-bottom:0;
+    }
+    
+    .logo img {
+        height:50px;
+    }
+    .navbar .hamburger {
+        display: block;
+        padding: 1rem;
+        font-size: 24px;
+    }
+
+    .navbar .nav-wrap {
+        display:none;
+    }
+
+    .navbar .search-2 {
+        display:block;
+        padding:1rem;
+        font-size: 24px;
+    }
+  }
+
+
 /* route section  */
 .route {
   height: 40px;
@@ -132,7 +223,6 @@ a {
 .route a {
   color: #3f000b;
   margin: 0.3rem;
-  font-family: montserrat;
   font-weight: bolder;
 }
 .route a:hover {
@@ -146,11 +236,9 @@ a {
 }
 .route p {
   margin: 0.3rem;
-  font-family: montserrat;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.4);
 }
-
 
 /* company hero section  */
 .company_hero {
@@ -190,6 +278,40 @@ a {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 1000px) {
+  .company_hero_con {
+    width: 90%;
+    border-radius: 5px;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .company_hero_con {
+    width: 90%;
+    border-radius: 5px;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .company_hero_con {
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+}
+
 /* company_history section  */
 
 .company_history {
@@ -222,6 +344,21 @@ a {
   line-height: 1.3;
 }
 
+@media screen and (max-width: 1200px) {
+  .history_text {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .history_text {
+    width: 100%;
+  }
+
+  .company_history {
+    padding: 3rem 3rem;
+  }
+}
+
 /* legacy section  */
 
 .Legacy {
@@ -234,7 +371,6 @@ a {
 .Legacy .Legacy_con {
   width: 100%;
   height: 80vh;
-  font-family: sans-serif;
   display: flex;
   align-items: center;
   background-color: #08a9a0;
@@ -252,7 +388,6 @@ a {
 .Legacy .Legacy_left h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  font-family: sans-serif;
   font-weight: 900 bold;
 }
 
@@ -276,6 +411,8 @@ a {
 }
 .Legacy button:hover {
   background-color: #9f8050;
+  border: 1px solid #3f000b;
+  color: #fff;
 }
 
 .Legacy .Legacy_right {
@@ -289,6 +426,34 @@ a {
   object-fit: cover;
 }
 
+@media screen and (max-width: 1230px) {
+  .Legacy {
+    padding: 5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .Legacy {
+    padding: 5rem 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Legacy .Legacy_con {
+    flex-direction: column-reverse;
+  }
+  .Legacy .Legacy_con {
+    width: 100%;
+    height: 100%;
+  }
+  .Legacy .Legacy_right {
+    height: 100%;
+    width: 100%;
+  }
+  .Legacy .Legacy_con .Legacy_left {
+    width: 100%;
+  }
+}
+
 /* moments section  */
 
 .Moments {
@@ -300,7 +465,6 @@ a {
 .Moments .Moments_con {
   width: 100%;
   height: 80vh;
-  font-family: sans-serif;
   display: flex;
   align-items: center;
   background-color: #91268e;
@@ -318,7 +482,6 @@ a {
 .Moments .Moments_left h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  font-family: sans-serif;
   font-weight: 900 bold;
 }
 
@@ -342,6 +505,8 @@ a {
 }
 .Moments button:hover {
   background-color: #9f8050;
+  border: 1px solid #3f000b;
+  color: #fff;
 }
 
 .Moments .Moments_right {
@@ -353,6 +518,34 @@ a {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1230px) {
+  .Moments {
+    padding: 5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .Moments {
+    padding: 5rem 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Moments .Moments_con {
+    flex-direction: column-reverse;
+  }
+  .Moments .Moments_con {
+    width: 100%;
+    height: 100%;
+  }
+  .Moments .Moments_right {
+    height: 100%;
+    width: 100%;
+  }
+  .Moments .Moments_con .Moments_left {
+    width: 100%;
+  }
 }
 
 /* Workforce  section  */
@@ -382,7 +575,7 @@ a {
   width: 380px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 4rem 1rem;
-  top: 20%;
+  top: 15%;
   left: 10%;
   position: absolute;
   background-color: #fff;
@@ -400,13 +593,13 @@ a {
   color: #333333;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  padding:  0 1.5rem;
+  padding: 0 1.5rem;
 }
 
 .Workforce .Workforce_card .btn {
-  width: 80%;
+  width: 90%;
   padding: 1rem;
-  border-radius: 30px;
+  border-radius: 35px;
   background-color: #3f000b;
   color: #feebd0;
   border: none;
@@ -417,6 +610,8 @@ a {
 }
 .Workforce .Workforce_card button:hover {
   background-color: #9f8050;
+  border: 1px solid #3f000b;
+  color: #fff;
 }
 
 .Workforce .Workforce_img img {
@@ -442,6 +637,147 @@ a {
   text-shadow: 0 0 20px #000000d5;
 }
 
+@media only screen and (max-width: 1280px) {
+  .Workforce {
+    padding: 2rem;
+  }
+  .Workforce .Workforce_card .p_card {
+    width: 400px;
+    padding: 1rem;
+    top: 10%;
+    left: 0%;
+  }
+  .Workforce .Workforce_img {
+    width: 100%;
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Workforce {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Workforce .Workforce_card .p_card {
+    width: 400px;
+    padding: 1rem;
+    top: 5%;
+    left: 0%;
+  }
+  .Workforce .Workforce_img {
+    width: 100%;
+    margin: 0;
+  }
+  .Workforce .Workforce_card img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .Workforce {
+    height: 120vh;
+  }
+  .Workforce .Workforce_card {
+    width: 0;
+  }
+
+  .Workforce .Workforce_card .p_card {
+    width: 800px;
+    top: 50%;
+    left: 0px;
+    margin-left: 1rem;
+  }
+  .play_icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .Workforce {
+    height: 130vh;
+  }
+
+  .Workforce .Workforce_card .p_card {
+    width: 750px;
+    top: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Workforce .Workforce_card .p_card {
+    top: 60%;
+    margin-left: 1rem;
+  }
+  .Workforce {
+    margin: 0;
+    padding: 0;
+  }
+
+  .Workforce {
+    height: 90vh;
+    background: none;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .Workforce .Workforce_card .p_card {
+    width: 700px;
+    top: 60%;
+    left: 30px;
+    margin-left: 0rem;
+  }
+  .Workforce .Workforce_card h2 {
+    font-size: 1.5rem;
+  }
+  .Workforce .Workforce_card p {
+    font-size: 1rem;
+  }
+  .Workforce .Workforce_card .btn {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .Workforce .Workforce_card .p_card {
+    width: 600px;
+    top: 60%;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .Workforce .Workforce_card .p_card {
+    width: 550px;
+    top: 60%;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .Workforce .Workforce_card .p_card {
+    width: 500px;
+    top: 45%;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Workforce .Workforce_card .p_card {
+    width: 400px;
+    top: 45%;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .Workforce .Workforce_card .p_card {
+    position: relative;
+    top: 35%;
+    left: 20px;
+  }
+}
+
 /* plantLocation section  */
 
 .plantLocation {
@@ -449,13 +785,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
- background-color: #feebd0;
+  background-color: #feebd0;
   padding: 2rem 8rem;
 }
 
 .plantLocation .plantLocation_card {
   width: 50%;
-  height: 50vh;
+  height: 400px;
+
   text-align: center;
   padding: 2rem 1rem;
   margin: 2rem;
@@ -471,7 +808,7 @@ a {
 
 .plantLocation .plantLocation_card p {
   font-size: 1.2rem;
-  padding: 0 3rem;
+  padding: 0 2rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   color: #333333;
@@ -491,6 +828,48 @@ a {
 }
 .plantLocation .plantLocation_card .btn:hover {
   background-color: #9f8050;
+  border: 1px solid #3f000b;
+  color: #fff;
+}
+@media only screen and (max-width: 1090px) {
+  .plantLocation {
+    padding: 2rem;
+  }
+  .plantLocation .plantLocation_card p {
+    padding: 0 2rem;
+    line-height: 1.5;
+  }
+  .plantLocation .plantLocation_card .btn {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 940px) {
+  .plantLocation {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .plantLocation .plantLocation_card {
+    width: 80%;
+    height: 300px;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 652px) {
+  .plantLocation {
+    padding: 0;
+  }
+  .plantLocation .plantLocation_card h2 {
+    font-size: 1.5rem;
+  }
+  .plantLocation .plantLocation_card p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    line-height: 1.3;
+  }
+  .plantLocation .plantLocation_card .btn {
+    font-size: 0.9rem;
+    width: 90%;
+  }
 }
 
 /* footer section  */
@@ -625,4 +1004,53 @@ footer .bottom {
 
 .bottomright a:hover {
   text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 860px) {
+ 
+  footer .top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .top .topright {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+  .topright .tr {
+    padding: 1rem;
+    border-top: 3px solid #3f000b;
+    border-left: none;
+  }
+  .top .topleft{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tl ul.tl-one {
+    margin-left: 0rem;
+  }
+
+  .top .topleft .tl{
+    width: 100%;
+  }
+  .toggle {
+    padding: 10px 0;
+    margin-bottom: 2rem;
+  }
+  footer .bottom .bottomleft {
+    display: none;
+    
+  }
+  footer .bottom .bottomright {
+    width: 100%;
+    text-align: center;
+}
 }
