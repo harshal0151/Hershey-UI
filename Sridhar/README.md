@@ -3,8 +3,9 @@
 ## HOSTED LINK OF OUR PROJECT
 To explore the project, visit the [https://sudhanshusudan33.github.io/Hershey-UI/index.html](https://sudhanshusudan33.github.io/Hershey-UI/index.html)
 
-# Allergens
-![https://sudhanshusudan33.github.io/Hershey-UI/Sridhar/Allergens/index.html](../Sridhar/images/Capture.PNG)
+# Allergens 
+[https://sudhanshusudan33.github.io/Hershey-UI/Sridhar/Allergens/index.html]
+![Allergens](../Sridhar/images/Capture.PNG)
 # Dietary Needs
 ![Dietary Needs](../Sridhar/images/dietary.PNG)
 # Zero Sugar
