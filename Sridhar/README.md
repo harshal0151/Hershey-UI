@@ -1,4 +1,4 @@
-# Hershey.com
+# thehersheycompany.com :chocolate_bar:
 
 ## HOSTED LINK OF OUR PROJECT
 To explore the project, visit the [https://sudhanshusudan33.github.io/Hershey-UI/index.html](https://sudhanshusudan33.github.io/Hershey-UI/index.html)
