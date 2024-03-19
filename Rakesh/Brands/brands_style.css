@@ -152,37 +152,29 @@ p {
     display:block;
 }
 
-/*----------------HERO------------------*/
+/*-----------HERO-----------*/
 .hero {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; */
-
     display: flex;
-    /* min-height: 450px; */
     margin-top: 7.8rem;
-
 }
+
 .hero .hero-con-1 {
     width: 100%;
-    /* height: 100%; */
     background-color: #3f000b;
 }
 
 .hero .hero-con-1 .con-1-content {
-/*++++++++++++++++++++++ */
     padding: 2rem 4rem;
- /*++++++++++++++++++++++ */
     width: 40vw;
     margin: auto;
     margin-top: 3rem;
-
 }
 
 .hero .hero-con-2 img {
     width: 100%;
     height: 100%;
 }
+
 .hero  .hero-con-1 .con-1-content h1 {
     font-size: 3rem;
     color: #feebd0;
@@ -200,7 +192,6 @@ p {
 #pure-text {
     padding-bottom: 5rem;
     padding-top: 2rem;
-
 }
 
 .pure-text-wrapper h2 {
@@ -214,14 +205,11 @@ p {
 .pure-text-wrapper p {
     color: #333333;
     font-size: 1rem;
-    /* width: 30vw; */
-    /* margin: auto; */
 
 }
 
 .pure-text-wrapper {
     width: 40vw;
-    /* text-align: center; */
 }
 
 #pure-text {
@@ -229,10 +217,9 @@ p {
     justify-content: center;
     align-items: center;
     background-color: #efeaea;
-    
 }
 
-/* --------3-SECTION--MORE MOMENTS ----------------- */
+/* -----MORE MOMENTS ------------- */
 
 #brand-three {
     background-image: url(../Brands_Assets/snacks-variety.svg);
@@ -240,28 +227,16 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* padding: 5rem;
-    position: relative; */
 }
 
 .brand-heading h2 {
         text-align: center;
-        /* padding-top: 2rem;
-        padding-bottom: 3rem; */
         font-size: 3rem;
         padding-top: 4rem;
         color: #feebd0;
         margin-bottom: 1rem;
         font-family:"Main-font";
     }
-
-/* .more-moments {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 5rem;
-    position: relative;
-} */
 
 .card-right {
     display: flex;
@@ -283,10 +258,8 @@ p {
 
 .more-moments .card {
     position: absolute;
-   
-   right: 12%;
-   top: 24%;
- 
+    right: 12%;
+    top: 24%;
 }
 
 .card {
@@ -295,10 +268,8 @@ p {
     text-align: center;
     align-items: center;
     justify-content: center;
-    
     width: 25%;
-    height: 60%;
-        
+    height: 60%;  
     padding: 2rem 1rem;
     background-color: #fff;
     box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.2);
@@ -312,11 +283,9 @@ p {
     
 }
 .card h2 {
-    /* font-size: 1rem; */
-    /* line-height: 1.5; */
-    margin: 25px 0;
-    
+    margin: 25px 0; 
 }
+
 p {
     color: #333333;
 }
@@ -348,28 +317,20 @@ p {
     padding: 5rem;
 } 
 .article-2-sec {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; */
     display: flex;
 }
 
 .article-2-sec-left {
     width: 100%;
-    /* height: 100%; */
     background-color: #08a9a0;
     text-align: center;
     padding: 15rem 1rem;
     }
-/* .article-2-sec-right {
-    cursor: pointer;
-} */
 
 .article-2-sec-right img {
     width: 100%;
     height: 80%;
     margin-top: 10%;
-    
 }
 
 .article-2-sec-left > h2 {
@@ -380,9 +341,6 @@ p {
 .article-2-sec-left  p, .button-front-text a {
     color: #feebd0;
     font-size: 1.5rem;
-    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
-
-
 }
 
 .brown-button {
@@ -395,11 +353,12 @@ p {
     border-radius: 50px;
     margin-top: 2rem;
 }
+
 .brown-button:hover {
     background-color: #9f8085;
 }
 
-/* -----For text with Underline-------------- */
+/* -----For text with Underline------ */
 .button-front-text a {
     border-bottom: solid 1px;
     border-bottom-color: #feebd0;
@@ -425,15 +384,11 @@ p {
     padding: 5rem;
 } 
 .article-3-sec {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; */
     display: flex;
 }
 
 .article-3-sec-right {
     width: 100%;
-    /* height: 100%; */
     background-color: #91268e;
     text-align: center;
     padding: 15rem 1rem;
@@ -450,17 +405,13 @@ p {
 .article-3-sec-right > h2 {
     color: #feebd0;
     font-size: 3rem;
-    /* font-family:"Gazpacho,TT Norms Pro,sans-serif"; */
-    
 }
 
 .article-3-sec-right  p, .button-front-text a {
     color: #feebd0;
     font-size: 1.5rem;
-    
-
-
 }
+
 /* ---------ARTICLE-4------------- */
 
 #article-4 {
@@ -470,15 +421,11 @@ p {
     padding: 5rem;
 } 
 .article-4-sec {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; */
     display: flex;
 }
 
 .article-4-sec-left {
     width: 100%;
-    /* height: 100%; */
     background-color: #08a9a0;
     text-align: center;
     padding: 15rem 1rem;
@@ -499,36 +446,25 @@ p {
     color: #feebd0;
     font-size: 1.5rem;
     font-weight: 700;
-   
 }
 
 .button-front-text a {
     color: #feebd0;
     font-size: 1.1rem;
     font-weight: 800;
-   
 }
-
 
 /* ---------ARTICLE-5------------- */
 
-
 #article-5 {
-
     background-color: #feebd0;
     padding: 5rem;
 } 
 .article-5-sec {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; */
     display: flex;
-
 }
 
 .article-5-sec-right {
-    /* width: 50%; */
-    /* height: 100%; */
     background-color:#ffffff;
     text-align: center;
     padding: 15rem 1rem;
@@ -539,24 +475,18 @@ p {
 .article-5-sec-left img {
     width: 100%;
     height: 50rem;
-
-    /* object-fit: cover; */
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
 }
 
 .article-5-sec-right > h2 {
     color: #3f000b;
     font-size: 3rem;
-    
-    
 }
 
 .article-5-sec-right  p, .article-5-button-front-text a {
     color: #3f000b;
     font-size: 1.5rem;
     font-weight: 800;
-    
-
 }
 
 /*----------FOOTER----------*/
@@ -698,46 +628,31 @@ footer .bottom {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* --------MEDIA QUERIES------------ */
 @media all and (max-width: 1396px) {
     .more-moments .card {
-        width: 25%;
-        
+        width: 25%;  
     }
-    
 }
-/* _________________________________________ */
+
+/*---------------------------------- */
 
 @media all and (max-width: 1030px) {
     .hero .hero-con-1 .con-1-content {
             padding: 1rem 2rem;
-
     }
 
     .hero .hero-con-1 .con-1-content  p {
             font-size: 1.2rem;
-
             line-height: 1.5;
-            
-        
         }
 
     .card {
         padding: 1rem 0.5rem;
         height: 55%;
-        top: 28%;
-        
+        top: 28%;  
     }
+
     .more-moments .card {
         top: 21%;
     }
@@ -747,8 +662,7 @@ footer .bottom {
     }
 
     .card-right {
-        padding: 1rem;
-        
+        padding: 1rem; 
     }
 
     .pure-text-wrapper {
@@ -758,7 +672,6 @@ footer .bottom {
     #pure-text {
         padding-bottom: 4rem;
         padding-top: 0rem;
-    
     }
 
     .card h2 {
@@ -773,7 +686,8 @@ footer .bottom {
         margin-bottom: 0;
         font-size: 19px;
     }
-    /* -------------------------- */
+
+    /* ---------------------- */
     .article-2-sec-left {
         padding: 8rem 1rem;
     }
@@ -786,7 +700,7 @@ footer .bottom {
         font-size: 1rem;
     }
 
-    /* ------------------------------------- */
+    /* -----------------------*/
 
     .article-3-sec-right {
         padding: 8rem 1rem;
@@ -799,7 +713,7 @@ footer .bottom {
     .article-3-sec-right  p, .button-front-text a {
         font-size: 1.1rem;
     }
-    /* ------------------------------------------- */
+    /* ------------------------*/
     .article-4-sec-left {
         padding: 8rem 1rem;
     }
@@ -812,18 +726,19 @@ footer .bottom {
         font-size: 1rem;
     }
 
-    /* ---------------------------------------------- */
+    /* ------------------------ */
     .article-5-sec-right {
-        padding: 8rem 1rem;
+        padding: 18rem 1rem;
     }
 
     .article-5-sec-right >h2 {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
 
     .article-5-sec-right  p, .button-front-text a {
         font-size: 1.1rem;
     }
+
     .button {
         padding: 1rem;
         
@@ -832,34 +747,46 @@ footer .bottom {
         font-size: 13px;
         font-weight: 600;
         border-radius: 50px;
-        /* margin-top: 2rem; */
+    }       
+}
+/* ------------------------------- */
+@media all and (max-width: 975px) {
+    .card {
+        height:70%
+        
     }
-
-
-
-
-
-
-
-
-          
+    .card h2 {
+        font-size: 1.1rem;
+    }
+    .card p {
+        font-size: 1rem;
+        line-height:0.8;
+        margin: 25px 0;
+    }
+    .button {
+        padding: 1rem;
+        text-decoration: none;
+        color: #feebd0;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 50px;
+    }
 }
 
-
-/* _________________________________________ */
+/*---------------------------------*/
 
 @media all and (max-width: 780px) {
     .hero {
-        /* display: block; */
         flex-direction: column-reverse;
-
     }
+
     .hero .hero-con-1 .con-1-content {
         padding: 0.5rem 1rem;
         margin-top:1rem;
         width: 100%;
         text-align: center;
     }
+
     .hero  .hero-con-1 .con-1-content h1 {
         font-size: 2.5rem;
 
@@ -868,13 +795,13 @@ footer .bottom {
         font-size: 1.2rem;
         line-height: 1.5;
         padding-bottom: 2rem;
-    
     }
 
-/* -------------- */
+/* -------------------- */
     .pure-text-wrapper {
         width: 70vw;
     }
+
 /* ------------------- */
 
     .card-right {
@@ -904,14 +831,9 @@ footer .bottom {
         font-size: 2rem;
         padding-top:1rem;
     }
-
-    
-
     .card-right {
         padding: 1rem;
-        
     }
-
 
     /* -------------------------- */
     .article-2-sec {
@@ -922,17 +844,15 @@ footer .bottom {
         width: 100%;
         height: 60%;
         margin-top: 0%;
-        
     }
+
     #article-2 {
         padding: 2rem 1rem;
     }
 
     .article-2-sec-left {
-        
         padding: 5rem 1rem;
     }
-
 
 /* ----------------- */
 
@@ -943,17 +863,17 @@ footer .bottom {
 .article-3-sec-left img {
     width: 100%;
     height: 60%;
-    margin-top: 0%;
-    
+    margin-top: 0%;  
 }
+
 #article-3 {
     padding: 2rem 1rem;
 }
 
-.article-3-sec-right {
-    
+.article-3-sec-right {    
     padding: 5rem 1rem;
 }
+
 /* ----------------- */
 .article-4-sec {
     flex-direction: column-reverse;
@@ -970,35 +890,32 @@ footer .bottom {
 }
 
 .article-4-sec-left {
-    
     padding: 5rem 1rem;
 }
-
 
 /* ----------------- */
 .article-5-sec {
     flex-direction: column;
-
 }
+
 .article-5-sec-left img {
     width: 100%;
     height: 60%;
     margin-top: 0%;
-    
 }
+
 #article-5 {
     padding: 2rem 1rem;
 }
 
 .article-5-sec-right {
-    
     padding: 5rem 1rem;
 }
 
 .card {
     height:70%
-    
 }
+
 .card h2 {
     font-size: 1.1rem;
 }
@@ -1007,22 +924,72 @@ footer .bottom {
     line-height:0.8;
     margin: 25px 0;
 }
+
 .button {
     padding: 1rem;
-    
     text-decoration: none;
     color: #feebd0;
     font-size: 13px;
     font-weight: 600;
     border-radius: 50px;
-    /* margin-top: 2rem; */
 }
 
 }
+/* ----------------------------------- */
+@media all and (max-width: 762px){
+    .card {
+        height:80%
+        
+    }
+}
 
 
+@media all and (max-width: 662px){
+    .card {
+        height:80%
+        
+    }
+    .card h2 {
+        font-size: 1rem;
+    }
+    .card p {
+        font-size: 0.8rem;
+        line-height:0.8;
+        margin: 25px 0;
+    }
+    .button {
+        padding: 0.8rem;
+        text-decoration: none;
+        color: #feebd0;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 50px;
+    }
+}
 
-/* _________________________________________ */
+@media all and (max-width: 588px){
+    .card {
+        height:80%
+        
+    }
+    .card h2 {
+        font-size: 0.8rem;
+    }
+    .card p {
+        font-size: 0.6rem;
+        line-height:0.8;
+        margin: 25px 0;
+    }
+    .button {
+        padding: 0.6rem;
+        text-decoration: none;
+        color: #feebd0;
+        font-size: 10px;
+        font-weight: 600;
+        border-radius: 50px;
+    }
+}
+/*------------------------------------ */
 
 @media all and (max-width: 430px) {
     .hero .hero-con-1 .con-1-content {
@@ -1031,21 +998,20 @@ footer .bottom {
         width: 100%;
         text-align: center;
     }
+
     .hero  .hero-con-1 .con-1-content h1 {
         font-size: 2rem;
-
     }
+
     .hero .hero-con-1 .con-1-content  p {
         font-size: 1rem;
         line-height: 1.5;
         padding-bottom: 2rem;
-    
     }
 
     .card-right {
         flex-direction: column;
         height: auto;
-        /* padding: 5rem; */
     }
 
     .card-right .poster {
@@ -1060,18 +1026,17 @@ footer .bottom {
     }
     .card h2 {
         font-size: 0.8rem;
-        /* line-height: 1.5; */ 
     }
+
     .card p {
         font-size: 0.6rem;
     }
 
     .button {
-        padding: 0.5rem;
+        padding: 0.4rem;
         font-size: 15px;
         font-weight: 600;
         border-radius: 50px;
-        /* margin-top: 2rem; */
         margin-top:0.5rem;
     }
 
@@ -1084,13 +1049,26 @@ footer .bottom {
     .card-right {
         flex-direction: column;
         height: auto;
-        /* padding: 5rem; */
     }
 
 }
 
+@media all and (max-width: 380px) {
+      .brown-button {
+        padding: 0.9rem;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 50px;
+        margin-top: 2rem;
+    }
 
-/* -------Header and Footer Media queries */
+    .button-front-text a ,.article-5-button-front-text a{
+        font-size: 1rem;
+    }
+
+}
+
+/* ---Header and Footer Media queries--- */
 @media screen and (min-width:1600px) {
     .navbar .utility-nav {
         max-width:1600px;
