@@ -5,6 +5,9 @@
     /* font-family: 'Open Sans', sans-serif; */
     font-weight: 400;
 }
+html{
+    font-family:"TT norms pro", sans-serif;
+    }
 /* nav-bar start */
 .navbar {
     display:flex;
@@ -118,7 +121,14 @@
 .main-nav ul li:hover ul.dropdown {
     display:block;
 }
-
+.main-nav .menu li:hover .dietary-drop-down
+{
+    display: none;
+}
+.main-nav .menu li .dropdown .dietary:hover .dietary-drop-down{
+    background-color:#652f33;
+    display: contents;
+}
 /* nav-bar end */
 #container .route{
     display: flex;
@@ -369,4 +379,202 @@ footer .bottom {
 
 .bottomright a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
+    #container .hero .card{
+        width: 50%;
+        height: 100%;   
+    }
+    #container .section-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    #container .section-1 .section-heading{
+        width: 45%;
+        padding: 7rem;
+    }
+    #container .section-1 .right{
+        display: flex;
+        justify-content:space-between;
+        margin-right: 7rem;
+    }
+    .navbar .utility-nav {
+        max-width:1290px;
+        margin-left: 50%;
+        margin-right: 20%;
+        
+    }
+    .navbar .main-nav{
+        max-width:1290px;
+        margin-right: auto;
+        width: 100%;
+    }
+    .navbar .main-nav li a{
+        padding: 0.1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .navbar {
+        padding-left:2rem;
+    }
+    .navbar .utility-nav {
+        margin-left: 50%;
+        margin-right: 20%;
+        
+    }
+    .main-nav ul li a {
+        font-size: x-small;
+        padding: 0.5rem;
+    }
+    .logo img {
+        height:50px;
+    }
+
+    #container .hero .card{
+        width: 90%;
+        height: 80%;
+        margin-top: 2rem;
+    }
+    #container .hero .card h1{
+        align-items: center;
+        text-align: center;
+    }
+    #container .hero .card p{
+        align-items: center;
+        text-align: center;
+    }
+    #container .section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    #container .section-1 .section-heading{
+        width: 100%;
+        text-align: center;
+        padding: 7rem;
+    }
+    #container .section-1 .right{
+        display: flex;
+        align-items: center;
+        /* justify-content:space-evenly; */
+        margin: 2rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar {
+        display: flex;
+        padding-left: 0.5rem;
+        align-items: center;
+        padding-bottom:0;
+    }
+    
+    .logo img {
+        height:50px;
+        /* margin-left: -12rem; */
+    }
+    .navbar .hamburger {
+        display: block;
+        padding: 1rem;
+        font-size: 24px;
+    }
+
+    .navbar .nav-wrap {
+        display:none;
+    }
+
+    .navbar .search-2 {
+        display:block;
+        padding:1rem;
+        font-size: 24px;
+        margin-right: 1rem;
+    }
+    #container{
+        scrollbar-width: 70%;
+        max-width: 760px;
+    }
+    #container .hero {
+        max-width: 760px;
+        overflow: hidden;
+        margin-right: 2rem;
+    }
+    #container .hero .card{
+        width: 60%;
+        height: 90%;
+        margin-top: 2rem;
+    }
+    #container .hero .card h1{
+        align-items: center;
+        text-align: center;
+        font-size: larger;
+    }
+    #container .hero .card p{
+        align-items: center;
+        text-align: center;
+    }
+    #container .section-1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #container .section-1 .section-heading{
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    #container .section-1 .right{
+        display: flex;
+        align-items: center;
+        /* justify-content:space-evenly; */
+        margin: 1rem;
+        /* overflow: hidden; */
+    }
+    footer .top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+      
+      }
+      .top .topright {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+      }
+      .topright .tr {
+        padding: 1rem;
+        border-top: 3px solid #3f000b;
+        border-left: none;
+      }
+      .top .topleft{
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .tl ul.tl-one {
+        margin-left: 0rem;
+      }
+    
+      .top .topleft .tl{
+        width: 100%;
+      }
+      .toggle {
+        padding: 10px 0;
+        margin-bottom: 2rem;
+      }
+    
+      
+      footer .bottom .bottomleft {
+        display: none;
+        
+      }
+      footer .bottom .bottomright {
+        width: 100%;
+        text-align: center;
+    }
 }

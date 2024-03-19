@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-weight: 400;
 }
+html{
+    font-family:"TT norms pro", sans-serif;
+}
 /* nav-bar start */
 .navbar {
     display:flex;
@@ -117,7 +120,14 @@
 .main-nav ul li:hover ul.dropdown {
     display:block;
 }
-
+.main-nav .menu li:hover .dietary-drop-down
+{
+    display: none;
+}
+.main-nav .menu li .dropdown .dietary:hover .dietary-drop-down{
+    background-color:#652f33;
+    display: contents;
+}
 /* nav-bar end */
 
 #container .route{
@@ -416,4 +426,259 @@ footer .bottom {
 
 .bottomright a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
+    #container .hero{
+        width: 75%;
+    }
+    #container .hero .card{
+        width: 50%;
+        height: 10%;
+        padding: 3.65rem;
+    }
+    #container .hero .choco{
+        width: 50%;
+    }
+    #container .hero .choco img{
+        width: 100%;
+        height: 100%;
+    }
+    #container .section-1{
+        width: 75%;
+        padding-left: 5rem;
+        padding-right: 15rem;
+        font-size: small;
+    }
+    #container .section-2{
+        width: 75%;
+    }
+    #container .section-2 .left{
+        width: 50%;
+    }
+    #container .section-2 .left h1{
+        font-size: x-small;
+        margin-bottom: -1rem;
+        padding: 1.5rem;
+    }
+    #container .section-2 .left a{
+        font-size: small;
+        padding: 0.5rem;
+        margin-top: -3rem;
+    }
+    #container .section-2 .right{
+        width: 50%;
+        font-size: smaller;
+        padding: 0rem;
+        display: flex;
+        justify-content: left;
+        overflow: hidden;
+    }
+    #container .section-2 .right .choco-type{
+        width: 30%;
+        font-size: small;
+    }
+    #container .section-2 .right .choco-type .choco{
+        padding-right: 1rem;
+        line-height: 0;
+        letter-spacing: 0;
+    }
+    .navbar .utility-nav {
+        max-width:1290px;
+        margin-left: 50%;
+        margin-right: 20%;
+        
+    }
+    .navbar .main-nav{
+        max-width:1290px;
+        margin-right: auto;
+        width: 100%;
+    }
+    .navbar .main-nav li a{
+        padding: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .navbar {
+        padding-left:2rem;
+    }
+    .navbar .utility-nav {
+        margin-left: 50%;
+        margin-right: 20%;
+        
+    }
+    .main-nav ul li a {
+        font-size: x-small;
+        padding: 0.5rem;
+    }
+    .logo img {
+        height:50px;
+    }
+    #container .hero{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #container .hero .choco{
+        width: 100%;
+    }
+    #container .hero .card{
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+    #container .section-1{
+        padding-left: 4rem;
+        padding-right: 10rem;
+        font-size: small;
+    }
+    #container .section-2{
+        display: grid;
+        padding-top: 2rem;
+        padding-left: 10rem;
+        padding-bottom: 10rem;
+        margin-bottom: 0;
+        height: 100%;
+        grid-template-columns: auto;
+    }
+    /* #container .section-2 h1{
+        font-size: medium;
+        padding-left: 7rem;
+        padding-right: -20rem;
+    } */
+    #container .section-2 .left a{
+        position: absolute;
+        margin-top: 25rem;
+        font-size: medium;
+        /* margin-left: 8rem; */
+        width: 80%;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .navbar {
+        display: flex;
+        padding-left: 0.5rem;
+        align-items: center;
+        padding-bottom:0;
+        margin: 0;
+        width: 99%;
+    }
+    
+    .logo img {
+        height:50px;
+    }
+    .navbar .hamburger {
+        display: block;
+        padding: 1rem;
+        font-size: 24px;
+    }
+
+    .navbar .nav-wrap {
+        display:none;
+    }
+
+    .navbar .search-2 {
+        display:block;
+        padding-right:3rem;
+        font-size: 24px;
+    }
+    #container{
+        width: 103%;
+        margin: 0;
+        margin-right: 0rem;
+
+    }
+    #container .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        /* max-width: 767px; */
+    }
+    #container .hero .choco{
+        width: 100%;
+        /* max-width: 767px; */
+     
+    }
+    #container .hero .card{
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+    #container .section-1{
+        padding-left: 4rem;
+        padding-right: 10rem;
+        font-size: small;
+    }
+    #container .section-2{
+        display: grid;
+        padding-top: 2rem;
+        padding-left: 10rem;
+        padding-bottom: 10rem;
+        margin-bottom: 0;
+        height: 100%;
+        grid-template-columns: auto;
+    }
+    /* #container .section-2 h1{
+        font-size: medium;
+        padding-left: 7rem;
+        padding-right: -20rem;
+    } */
+    #container .section-2 .left a{
+        position: absolute;
+        margin-top: 25rem;
+        font-size: medium;
+        /* margin-left: 8rem; */
+        width: 80%;
+        text-align: center;
+    }
+    footer .top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+      
+      }
+      .top .topright {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+      }
+      .topright .tr {
+        padding: 1rem;
+        border-top: 3px solid #3f000b;
+        border-left: none;
+      }
+      .top .topleft{
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .tl ul.tl-one {
+        margin-left: 0rem;
+      }
+    
+      .top .topleft .tl{
+        width: 100%;
+      }
+      .toggle {
+        padding: 10px 0;
+        margin-bottom: 2rem;
+      }
+    
+      
+      footer .bottom .bottomleft {
+        display: none;
+        
+      }
+      footer .bottom .bottomright {
+        width: 100%;
+        text-align: center;
+    }
 }

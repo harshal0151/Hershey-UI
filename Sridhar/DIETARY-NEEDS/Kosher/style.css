@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-weight: 400;
 }
+html{
+    font-family:"TT norms pro", sans-serif;
+}
 /* nav-bar start */
 .navbar {
     display:flex;
@@ -117,7 +120,14 @@
 .main-nav ul li:hover ul.dropdown {
     display:block;
 }
-
+.main-nav .menu li:hover .dietary-drop-down
+{
+    display: none;
+}
+.main-nav .menu li .dropdown .dietary:hover .dietary-drop-down{
+    background-color:#652f33;
+    display: contents;
+}
 /* nav-bar end */
 
 #container .route{
