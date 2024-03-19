@@ -1,4 +1,4 @@
-# thehersheycompany.com :running:
+# thehersheycompany.com :chocolate:
 
 ## HOSTED LINK OF OUR PROJECT
 To explore the project, visit the [https://sudhanshusudan33.github.io/Hershey-UI/](https://sudhanshusudan33.github.io/Hershey-UI/)
@@ -54,15 +54,12 @@ This project was assigned by <a href="#"><u>Geekster</u></a> as a Major Project 
 <ul>A footer containing essential links assosicated with Hershey's rules and regulations, tickets and other relevant information.</ul>
 
 ## :computer:<span style="color:#29c4f6">TECHNOLOGIES  
-[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
  #### <span style="color:#ef00ff">1. HTML  
 <ul>HTML is a programming language which is used for structuring web Pages including headers, navigation bars, content sections, and footers. </ul>
 
  #### <span style="color:#ef00ff">2. CSS  
 <ul>Applied for styling and layout with different CSS properties </ul>
-
-#### <span style="color:#ef00ff">3. JAVASCRIPT 
-<ul>JavaScript is a dynamic programming language that is used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.</ul>
 
  #### <span style="color:#ef00ff">4. FONT AWESOME 
 <ul>Font Awesome is a comprehensive icon library that offers a vast selection of icons for various purposes, such as user interface design, web development and graphic design.
