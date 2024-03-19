@@ -6,6 +6,8 @@ To explore the project, visit the [https://sudhanshusudan33.github.io/Hershey-UI
 # Languages Used 
 HTML CSS
 
+# Project Description
+The Complete UI of Hershey(Allergens and Dietary Needs) using HTML, CSS, All the properties of CSS and Media Queries for Responsiveness
 
 # Allergens 
 ![Allergens](../Sridhar/images/Capture.PNG)
