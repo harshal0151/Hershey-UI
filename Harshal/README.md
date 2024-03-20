@@ -21,17 +21,7 @@ By delving into this project, you'll gain hands-on experience in building respon
 Throughout this README file, you'll find details on how to install and run the project locally, instructions on exploring the cloned website, guidelines for contributing to the project, and information about the project's licensing.
 
 Let's embark on this journey to recreate the Hershey Company website together, learning and growing as web developers along the way!"</i>
-## :dart:<span style="color:#29c4f6">PROJECT 
-This project was assigned by <a href="#"><u>Geekster</u></a> as a Major Project for a team of 7 members :juggling_person: regarding Front-end web development.
-    <ul type=none>
-    <li>:sparkles:Sudhanshu (CAPTAIN)
-    <li>:sparkles: Harshal 
-    <li>:sparkles:Rakesh
-     <li>:sparkles:sridhar
-     <li>:sparkles:Anuj
-     <li>:sparkles:Ritik
-    <li>:sparkles:Farheen
-   </ul>
+
 
 :gift: It was an exciting opportunity for all of us to apply our skills and collaborate with each other to create a polished website.:earth_asia:
 ## :artificial_satellite:<span style="color:#29c4f6">FEATURES
@@ -111,35 +101,31 @@ Throughout the development of our project, our team encountered various challeng
 <ul>Rigorous testing and debugging are necessary to identify and fix issues promptly </ul>
 
 ## :airplane:<span style="color:#29c4f6">WEBSITE UI 
- #### 1. HOME PAGE UI
- ![Homepage](./images/Homepage.jpg)
-  ![Homepage](images\nav_responsive.png)
-##### UI Description:<i> "The Home section is designed help users to easily access. The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
-
-#### 2. NAVBAR
- ![Navbar](./images/navbar.jpg)
+#### 1. NAVBAR
+ ![Navbar](../images/navbar.jpg)
+  ![Navbar](../images/nav_responsive.png)
  ##### UI Description:<i> "A navigation menu is implemented to allow users to easily navigate between different sections of the website."</i>
 
- #### 3. ABOUT US
- ![About us](./images/About%20us.jpg)
-![About us](images\about_responsive.png)
+ #### 2. ABOUT US
+ ![About us](../images/About%20us.jpg)
+![About us](../images/about_responsive.png)
  ##### UI Description:<i> "One of the notable features of the Hersshey Website Clone is the "About us" section, which showcases curated content about our team. This section emulates the functionality and presentation of the About us section found on the official Hershey's website."</i>
 
 
- #### 4. ABOUT COMPANY
- ![About Company](./images/About%20company.jpg)
- ![About Company](images\company_responsive.png)
+ #### 3. ABOUT COMPANY
+ ![About Company](../images/About%20company.jpg)
+ ![About Company](../images/company_responsive.png)
  ##### UI Description:<i> "The section is designed to help users to easily find some info about the company values."</i>
   
 
- #### 5. MILTON HERSHEY
- ![Milton Hershey](./images/Milton%20Hershey.png)
- ![Milton Hershey](images\miltoin_responsive.png)
+ #### 4. MILTON HERSHEY
+ ![Milton Hershey](../images/Milton%20Hershey.png)
+ ![Milton Hershey](../images/miltoin_responsive.png)
  ##### UI Description:<i> "The "Milton Hershey" section serves as a gateway to information about the founder "Milton Hershey" who left a great legacy brand behind. "</i>
 
- #### 8. FOOTER
- ![Footer](./images/Footer.jpg)
-  ![Footer](images\footer_responsive.png)
+ #### 5. FOOTER
+ ![Footer](../images/Footer.jpg)
+  ![Footer](../images/footer_responsive.png)
  ##### UI Description:<i> "The Footer section is designed help users to easily navigate throught the pages linked to each section . The UI focuses on user-friendly navigation, allowing users to easily access services."</i>
 
 
